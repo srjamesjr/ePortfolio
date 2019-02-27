@@ -1,0 +1,23 @@
+div {
+    height: 100px;
+}
+.wrapper {
+    width: 200px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: #ccc;
+}
+.inner {
+    width: 400px;
+}
+.left {
+
+    width: 150px;
+    float: left;
+    background-color: #f00;
+}
+.right {
+    width: 150px;
+    float: left;
+    background-color: #0f0;
+}
