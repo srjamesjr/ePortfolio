@@ -1,0 +1,67 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/docs.css">
+    <script src="../js/software.js"></script>
+</head>
+
+<body>
+
+<button onclick="topFunction()" id="ToTop">Top</button>
+<div>
+
+    <div class="header">
+        <div class="center">
+            <a class="header-text" href="../">HOME</a>
+            <a class="header-text" href="../Hardware">HARDWARE</a>
+            <a class="header-text" href="../Software">SOFTWARE</a>
+            <a class="header-text" href="../Resume">RESUME</a>
+        </div>
+    </div>
+
+
+
+    <div class="side">
+
+        <div class="table-of-contents">
+            <p class="underline">Table of Contents</p>
+            <h >Python</h><br/>
+            <a href="#" onclick="P_BattleShip(); return false;">BattleShip</a> <br/>
+            <!--<a href="#" onclick="software2(); return false;">111111</a>-->
+
+        </div>
+
+        <div class="content" id = testid>
+            <!--<script>test();</script>-->
+        </div>
+
+
+
+    </div>
+
+
+    <script> //https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                document.getElementById("ToTop").style.display = "block";
+            } else {
+                document.getElementById("ToTop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+    </script>
+
+
+
+</div>
+
+</body>
+</html>
