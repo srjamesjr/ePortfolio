@@ -26,7 +26,7 @@ function P_Portfolio() {
     d.classList = "content";
     d.innerHTML =
         "<div class=\"center-text\"><h1>Internet Portfolio</h1></div>" +
-        "<p>&emsp;As an assignment in my second year; we have to create a portfolio, there where no limits to what we could do but the expected was a PowerPoint presentation.</p>" +
+        "<p>&emsp;As an assignment in my second year of college; I had to create a portfolio, there where no limits to what I could do but the given template was a PowerPoint presentation.</p>" +
         "<p>&emsp;I wanted to go beyond this and create something that would make me stand out. I&rsquo;ve never had a Web Dev course or any courses on UI/graphics, but a website was definitely what I wanted to make. (this website)</p>" +
         "<p>&emsp;I started the process by creating some storyboards that I could base the website on. I followed the basic layout of the images, but over the weeks I&rsquo;ve worked, I&rsquo;ve refined and improved my website into a much better looking version.</p>" +
         "<img src=\"../images/portfolio/storyboard.png\" alt=\"Storyboard (image not found)\">" +
