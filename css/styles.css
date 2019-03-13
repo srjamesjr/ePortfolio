@@ -39,7 +39,7 @@ body {
 
     margin-right: auto !important;
     margin-left: auto !important;
-    width: 550px;
+    width: 750px;
     display: flex;
 
 }
@@ -53,7 +53,7 @@ body {
     .center{
         background-color: white;
         width: auto;
-        height: 231px;
+        height: 290px;
         display: block;
     }
     .header-text {
