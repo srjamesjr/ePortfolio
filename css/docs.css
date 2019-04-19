@@ -2,27 +2,30 @@
     /*height: auto;*/
     min-height: 40vh;
     width: 700px;
-    border-radius: 5px;
-    border: 1px solid #808080;
-    background: white;
+    border-radius: 3px;
+    /*border: 1px solid #808080;*/
+    background: rgba(255, 255, 255,0.7);
+    /*background: white;*/
     padding: 20px;
     margin-top: 50px;
     font-size: 16px;
     margin-left: auto; !important;
+    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.05);
 }
 
 .table-of-contents{
     margin-top: 50px;
     padding: 10px;
     font-size: 15px;
-    background-color: #72c3da;
-    border: 1px solid #808080;
+    background-color: rgba(255, 255, 255,0.7);
+    /*background-color: #72c3da;*/
+    /*border: 1px solid #808080;*/
     width: 140px;
     height: 200px;
     margin-right: auto; !important;
     margin-left: 5px;
-    box-shadow: 0px 1px 10px 1px rgba(56, 102, 145,0.5);
-    border-radius: 8px;
+    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.05);
+    border-radius: 3px;
 }
 
 .side{
