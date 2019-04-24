@@ -2,7 +2,7 @@
 //w3school
 //https://www.w3schools.com/howto/howto_js_collapsible.asp
 //
-//hid or unhide content below the a "collapsible" class
+//hide or unhide content below the a "collapsible" class
 function SectionCollapse() {
 
     var coll = document.getElementsByClassName("collapsible");
