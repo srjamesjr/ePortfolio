@@ -23,7 +23,7 @@ body {
     text-decoration: none
 }
 .header-text:hover {
-    background: black;
+    background: #42454a;
     color: white;
 }
 

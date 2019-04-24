@@ -10,7 +10,7 @@
     margin-top: 50px;
     font-size: 16px;
     margin-left: auto; !important;
-    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.05);
+    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.1);
 }
 
 .table-of-contents{
@@ -24,7 +24,7 @@
     height: 200px;
     margin-right: auto; !important;
     margin-left: 5px;
-    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.05);
+    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.1);
     border-radius: 3px;
 }
 
@@ -40,14 +40,15 @@ img {
 
 #ToTop {
     display: none;
-    box-shadow: inset 0px 1px 10px 1px rgba(56, 102, 145,0.5);
+    box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.5);
     position: fixed;
     bottom: 20px;
     right: 60px;
     font-size: 18px;
     outline: none;
     border: none;
-    background-color: #72c3da;
+    /*background-color: #72c3da;*/
+    background-color: white;
     padding: 15px;
     color: black;
     width: 100px;
@@ -63,7 +64,8 @@ img {
 
 
 #ToTop:hover {
-    background-color: #559bdd;
+    background-color: #42454a;
+    color: white;
 }
 @media only screen and (max-width: 750px) {
 
@@ -76,19 +78,17 @@ img {
         margin-top: 20px;
         padding: 10px;
         font-size: 14px;
-        background-color: #86ccdf;
+        box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.1);
         width: auto;
         height: 200px;
         text-align: center;
     }
 
     .content {
-        /*height: auto;*/
         min-height: 40vh;
         width: auto;
         border-radius: 5px;
-        border: 1px solid #808080;
-        background: white;
+        box-shadow: 0px 1px 20px 1px rgba(50, 160, 190,0.1);
         padding: 20px;
         margin-top: 20px;
         font-size: 15px;
@@ -98,32 +98,34 @@ img {
 
     #ToTop {
         right: 30px;
-        background-color: #72c3da;
         z-index: 2;
     }
 
 }
 
-/*w3schools*/
 .collapsible {
-    background-color: #777;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: none;
     text-align: left;
-    outline: none;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    box-shadow: 0px 1px 10px 1px rgba(50, 160, 190,0.06);
 }
 
 .active, .collapsible:hover {
-    background-color: #555;
+    background-color: #42454a;
+    /*background-color: black;*/
+    color: white;
 }
 
+
 .section {
-    padding: 0 18px;
     display: none;
+    padding: 10px;
     overflow: hidden;
-    background-color: #f1f1f1;
+    /*background-color: #f3f4fc;*/
 }
