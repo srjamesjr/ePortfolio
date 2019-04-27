@@ -1,0 +1,228 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : RGB_LED_SHIELD_FINAL.brd                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Dec 12 14:17:25 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          INCHES
+    FILM-SIZE             2400000 1600000
+    FORMAT                2.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                50.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05000                                  DARK 
+
+     OUTLINE created with warnings
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  CIRCLE     0.07800                                  DARK 
+  SQUARE     0.06400                     0.000 NO     DARK 
+  SQUARE     0.07800                     0.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: text composed 0 width line found at (740.00 1730.00)
+           ... using undefined line width of 10.00
+
+    WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
+           ... using undefined line width of 10.00
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.01000                                  DARK 
+  CIRCLE     0.05000                                  DARK 
+  CIRCLE     0.06400                                  DARK 
+  CIRCLE     0.07800                                  DARK 
+  SQUARE     0.06400                     0.000 NO     DARK 
+  SQUARE     0.07800                     0.000 NO     DARK 
+
+     BOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASKTOP >
+     TO FILE < E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/SOLDERMASKTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05600                                  DARK 
+  CIRCLE     0.07000                                  DARK 
+  CIRCLE     0.08400                                  DARK 
+  SQUARE     0.07000                     0.000 NO     DARK 
+  SQUARE     0.08400                     0.000 NO     DARK 
+
+     SOLDERMASKTOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < SOLDERMASKBOTTOM >
+     TO FILE < E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/SOLDERMASKBOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                10.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.05600                                  DARK 
+  CIRCLE     0.07000                                  DARK 
+  CIRCLE     0.08400                                  DARK 
+  SQUARE     0.07000                     0.000 NO     DARK 
+  SQUARE     0.08400                     0.000 NO     DARK 
+
+     SOLDERMASKBOTTOM created with warnings
+
+
+================================================================
+     PROCESSING FILM < SILKSCREENTOP >
+     TO FILE < E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/SILKSCREENTOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                5.00
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.00
+  Offset y:                           0.00
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.00500                                  DARK 
+  CIRCLE     0.01000                                  DARK 
+
+     SILKSCREENTOP created with warnings
+
+
+------------------------------------------------------
+ SUMMARY:
+        OUTLINE created with warnings
+        TOP created with warnings
+        BOTTOM created with warnings
+        SOLDERMASKTOP created with warnings
+        SOLDERMASKBOTTOM created with warnings
+        SILKSCREENTOP created with warnings
+
+ ARTWORK had warnings

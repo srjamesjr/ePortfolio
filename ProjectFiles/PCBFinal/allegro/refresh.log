@@ -1,0 +1,91 @@
+Wed Dec 12 13:44:31 2018				Page     1
+
+
+ 
+Update Symbols/Modules Logfile
+	Wed Dec 12 13:44:31 2018
+
+------ Module Refresh Messages ------
+
+SUMMARY:    Updated 0 out of 0 modules
+
+------ End Module Messages     ------
+
+
+
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Symbol                                                   )
+(                                                                     )
+(    Drawing          : RGB_LED_SHIELD_AUTO2.brd                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Dec 12 13:44:31 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Wed Dec 12 13:44:31 2018				Page     1
+
+
+------ Symbol Refresh Directives ------
+
+Input design  = 'E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/allegro/RGB_LED_SHIELD_AUTO2.brd'
+Output design = ''
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'NO'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'YES'
+Reset symbol text and size locations   = 'NO'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           C:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
+
+
+------ Symbol Refresh Messages ------
+
+'SWITCH'  symbol refreshed successfully.
+'RES400'  symbol refreshed successfully.
+'CON2'  symbol refreshed successfully.
+'CON4'  symbol refreshed successfully.
+'CON8'  symbol refreshed successfully.
+'CON6'  symbol refreshed successfully.
+'CON5'  symbol refreshed successfully.
+'DIP28_S'  symbol refreshed successfully.
+'RGB'  symbol refreshed successfully.
+'CCAP100'  symbol refreshed successfully.
+
+
+------ Pad Stack Refresh Messages ------
+
+'PAD78CIR43_COPPER'  pad stack refreshed successfully.
+'PAD64SQU35_COPPER'  pad stack refreshed successfully.
+'PAD78SQU43_COPPER'  pad stack refreshed successfully.
+'PAD64CIR35_COPPER'  pad stack refreshed successfully.
+
+
+----- Symbol Update Summary ----
+
+Updated symbols: 10 out 10
+    Design updated.
+

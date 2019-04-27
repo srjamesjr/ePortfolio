@@ -1,0 +1,400 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 17.2.0 d001Dec-10-2018 at 10:23:26 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='RGB_LED_SHIELD';
+ POST_TIME='Mar  2 2016 00:37:24';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_CCAP100_0.1UF':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS8750@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins8750@discrete.\cap np.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins8750@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_CCAP100_0.1UF':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS8568@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins8568@discrete.\cap np.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins8568@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_CCAP100_0.1UF':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS1968@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins1968@discrete.\cap np.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins1968@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11618@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11618@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11618@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D10 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS15840@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins15840@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins15840@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D11 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11910@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11910@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11910@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D12 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS15884@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins15884@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins15884@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D13 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11946@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11946@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11946@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D14 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS15928@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins15928@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins15928@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D15 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11982@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11982@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11982@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D16 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS15972@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins15972@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins15972@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS17412@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins17412@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins17412@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D3 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11654@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11654@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11654@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D4 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS17468@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins17468@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins17468@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D5 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11690@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11690@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11690@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D6 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS17524@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins17524@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins17524@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D7 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11726@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11726@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11726@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D8 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS17580@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins17580@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins17580@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D9 'LED_RGB_LED':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS11874@RGB_LED_LIBRARY.LED.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins11874@rgb_led_library.\led.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins11874@rgb_led_library.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC1 'TLC5940NT_DIP28_S_TLC5940NT':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS3895@RGB_LED_LIBRARY.TLC5940NT.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins3895@rgb_led_library.\tlc5940nt.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins3895@rgb_led_library.\tlc5940nt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC2 'TLC5940NT_DIP28_S_TLC5940NT':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS3978@RGB_LED_LIBRARY.TLC5940NT.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins3978@rgb_led_library.\tlc5940nt.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins3978@rgb_led_library.\tlc5940nt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ IC3 'TLC5940NT_DIP28_S_TLC5940NT':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS4062@RGB_LED_LIBRARY.TLC5940NT.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins4062@rgb_led_library.\tlc5940nt.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins4062@rgb_led_library.\tlc5940nt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON5_CON5_CON5':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS214@CONNECTOR.CON5.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins214@connector.\con5.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins214@connector.\con5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON6_CON6_ARDUINO POWER':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS52@CONNECTOR.CON6.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins52@connector.\con6.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins52@connector.\con6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'CON5_CON5_CON5':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS192@CONNECTOR.CON5.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins192@connector.\con5.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins192@connector.\con5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'CON6_CON6_ARDUINO ANALOG':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS76@CONNECTOR.CON6.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins76@connector.\con6.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins76@connector.\con6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'CON8_CON8_ARDUINO D13-8':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS121@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins121@connector.\con8.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins121@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'CON4_CON4_CON4':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS249@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins249@connector.\con4.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins249@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'CON4_CON4_CON4':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS269@CONNECTOR.CON4.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins269@connector.\con4.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins269@connector.\con4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'CON8_CON8_ARDUINO D7-0':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS149@CONNECTOR.CON8.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins149@connector.\con8.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins149@connector.\con8.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J9 'CON2_CON2_CON2':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS2099@CONNECTOR.CON2.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins2099@connector.\con2.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page2_ins2099@connector.\con2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_RES400_2K':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS9084@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins9084@discrete.\resistor.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins9084@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_RES400_10K':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS2454@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins2454@discrete.\resistor.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins2454@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_RES400_2K':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS8952@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins8952@discrete.\resistor.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins8952@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_RES400_2K':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS2049@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins2049@discrete.\resistor.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins2049@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW1 'B3F_SWITCH_B3F':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS4892@RGB_LED_LIBRARY.B3F.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins4892@rgb_led_library.\b3f.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins4892@rgb_led_library.\b3f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW2 'B3F_SWITCH_B3F':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS4856@RGB_LED_LIBRARY.B3F.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins4856@rgb_led_library.\b3f.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins4856@rgb_led_library.\b3f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SW3 'B3F_SWITCH_B3F':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS4820@RGB_LED_LIBRARY.B3F.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins4820@rgb_led_library.\b3f.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins4820@rgb_led_library.\b3f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ SWRESET1 'B3F_SWITCH_B3F':;
+
+SECTION_NUMBER 1
+ '@RGB_LED_SHIELD.SCHEMATIC1(SCH_1):INS3345@RGB_LED_LIBRARY.B3F.NORMAL(CHIPS)':
+ C_PATH='@rgb_led_shield.schematic1(sch_1):ins3345@rgb_led_library.\b3f.normal\(chips)',
+ P_PATH='@rgb_led_shield.schematic1(sch_1):page1_ins3345@rgb_led_library.\b3f.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
