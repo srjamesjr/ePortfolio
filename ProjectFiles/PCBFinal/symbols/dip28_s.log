@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : DIP28_S.dra                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Wed Dec 12 13:40:37 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/year2/PCB/FINALASSIGNMENT/FinalRGBLED/symbols
+    Name      = dip28_s.psm
+    User      = w0287666
+    Machine   = INWSD31516
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

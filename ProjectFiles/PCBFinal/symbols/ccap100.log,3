@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : CCAP100.dra                                   )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Thu Dec 06 02:35:50 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = G:/year2/PCB/FinalRGBLED/symbols
+    Name      = ccap100.psm
+    User      = JPoirier01
+    Machine   = WSRM31601
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

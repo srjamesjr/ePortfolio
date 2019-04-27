@@ -1,0 +1,464 @@
+\t (00:03:16) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:03:16)     Journal start - Thu Dec 13 09:28:22 2018
+\t (00:03:16)         Host=INWSB150A17 User=w0287666 Pid=3652 CPUs=4
+\t (00:03:16) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:03:16) 
+\d (00:03:16) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/allegro/RGB_LED_SHIELD_FINAL.brd
+\i (00:03:16) generaledit 
+\i (00:03:17) zoom out 1 
+\i (00:03:17) setwindow pcb
+\i (00:03:17) zoom out 3570.87 684.57
+\i (00:03:17) trapsize 7391
+\i (00:03:17) zoom out 1 
+\i (00:03:17) setwindow pcb
+\i (00:03:17) zoom out 7347.83 1464.35
+\i (00:03:17) trapsize 14783
+\i (00:03:18) zoom in 1 
+\i (00:03:18) setwindow pcb
+\i (00:03:18) zoom in 3208.70 163.48
+\i (00:03:18) trapsize 7391
+\i (00:03:18) zoom in 1 
+\i (00:03:18) setwindow pcb
+\i (00:03:18) zoom in 3025.22 193.04
+\i (00:03:18) trapsize 3696
+\i (00:03:19) zoom out 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom out 4754.79 311.30
+\i (00:03:19) trapsize 7391
+\i (00:03:19) zoom in 1 
+\i (00:03:19) setwindow pcb
+\i (00:03:19) zoom in 4887.83 444.35
+\i (00:03:19) trapsize 3696
+\i (00:03:32) zoom out 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom out 5538.26 843.48
+\i (00:03:32) trapsize 7391
+\i (00:03:33) zoom in 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom in 1680.01 813.93
+\i (00:03:33) trapsize 3696
+\i (00:03:37) roam start
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 48
+\i (00:03:37) roam x 32
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 32
+\i (00:03:37) roam x 16
+\i (00:03:37) roam x 16
+\i (00:03:37) roam y -16
+\i (00:03:37) roam x 32
+\i (00:03:37) roam x 32
+\i (00:03:38) roam y 16
+\i (00:03:38) roam x -16
+\i (00:03:38) roam end
+\i (00:03:39) zoom out 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom out 5618.26 466.52
+\i (00:03:39) trapsize 7391
+\i (00:03:39) zoom in 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom in 2913.04 -50.87
+\i (00:03:39) trapsize 3696
+\i (00:03:50) zoom out 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom out 3193.91 67.40
+\i (00:03:50) trapsize 7391
+\i (00:03:50) zoom in 1 
+\i (00:03:50) setwindow pcb
+\i (00:03:50) zoom in 1346.09 -183.91
+\i (00:03:50) trapsize 3696
+\i (00:12:24) zoom in 1 
+\i (00:12:24) setwindow pcb
+\i (00:12:24) zoom in 0.88 614.35
+\i (00:12:25) trapsize 1848
+\i (00:12:25) zoom out 1 
+\i (00:12:25) setwindow pcb
+\i (00:12:25) zoom out 0.88 614.35
+\i (00:12:25) trapsize 3696
+\i (00:12:25) zoom in 1 
+\i (00:12:25) setwindow pcb
+\i (00:12:25) zoom in 0.89 614.36
+\i (00:12:25) trapsize 1848
+\i (00:12:27) roam start
+\i (00:12:27) roam end
+\i (00:12:27) roam start
+\i (00:12:27) roam y -16
+\i (00:12:27) roam y -48
+\i (00:12:28) roam end
+\i (00:12:29) zoom out 1 
+\i (00:12:29) setwindow pcb
+\i (00:12:29) zoom out 850.89 758.48
+\i (00:12:29) trapsize 3696
+\t (00:12:32) Pick to complete the window.
+\i (00:12:35) pick 3260.46 2399.35
+\t (00:12:35) last pick:  3260.46 2399.35
+\i (00:12:35) setwindow pcb
+\i (00:12:35) zoom points
+\i (00:12:35) pick -176.49 -84.13
+\i (00:12:35) pick 5071.21 2399.35
+\i (00:12:35) trapsize 2160
+\i (00:12:35) generaledit 
+\i (00:12:38) roam x -96 
+\i (00:12:38) roam x -96
+\i (00:12:38) roam x -96 
+\i (00:12:38) roam x -96
+\i (00:12:48) plot preview 
+\i (00:13:16) plot preview 
+\i (00:13:22) plot setup 
+\i (00:13:27) setwindow form.fpfileplotsetup
+\i (00:13:27) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:13:30) FORM fpfileplotsetup fpplotsheetcontents YES 
+\i (00:13:31) FORM fpfileplotsetup done  
+\i (00:13:31) setwindow pcb
+\i (00:13:31) generaledit 
+\i (00:13:34) plot preview 
+\i (00:14:42) plot setup 
+\i (00:14:48) setwindow form.fpfileplotsetup
+\i (00:14:48) FORM fpfileplotsetup cancel  
+\i (00:14:48) setwindow pcb
+\i (00:14:48) generaledit 
+\i (00:14:52) plot 
+\i (00:15:02) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:15:02) plotwint orientation 2
+\i (00:15:02) plotwint papername "Letter"
+\i (00:15:02) plotwint copies 1
+\i (00:15:02) plotwint defaultsource 15
+\i (00:15:02) plotwint printquality 600
+\i (00:15:02) plotwint color 1
+\i (00:15:02) plotwint duplex 1
+\i (00:15:02) plotwint execute
+\i (00:15:48) setwindow form.find
+\i (00:15:48) FORM find all_on  
+\i (00:15:48) setwindow pcb
+\i (00:15:48) pick grid 3932.14 2053.82
+\t (00:15:48) last pick:  3930.00 2050.00
+\i (00:15:49) prepopup 3932.14 2045.18
+\i (00:15:50) pop dyn_option_select @:@Delete 
+\i (00:15:50) delete 
+\i (00:15:50) generaledit 
+\i (00:15:51) zoom out 1 
+\i (00:15:51) setwindow pcb
+\i (00:15:51) zoom out 3400.90 1470.74
+\i (00:15:51) trapsize 4319
+\i (00:15:51) zoom out 1 
+\i (00:15:52) setwindow pcb
+\i (00:15:52) zoom out 5828.23 1393.00
+\i (00:15:52) trapsize 8638
+\i (00:15:52) drag_start grid 11719.47 -581.31
+\i (00:15:53) drag_stop 3876.00 2701.20
+\i (00:15:54) prepopup 4186.97 1560.96
+\i (00:15:55) pop dyn_option_select @:@Delete 
+\i (00:15:55) delete 
+\i (00:15:55) generaledit 
+\i (00:15:55) zoom in 1 
+\i (00:15:55) setwindow pcb
+\i (00:15:55) zoom in 2977.63 835.36
+\i (00:15:55) trapsize 4319
+\i (00:15:56) drag_start grid 5232.20 -278.97
+\i (00:15:57) drag_stop 3478.65 1690.54
+\i (00:15:57) prepopup 3755.07 1198.16
+\i (00:15:58) pop dyn_option_select @:@Delete 
+\i (00:15:58) delete 
+\i (00:15:59) generaledit 
+\i (00:15:59) roam start
+\i (00:15:59) roam x -16
+\i (00:15:59) roam x -64
+\i (00:15:59) roam x -16
+\i (00:15:59) roam x -16
+\i (00:15:59) roam y -16
+\i (00:15:59) roam x -16
+\i (00:15:59) roam x -64
+\i (00:15:59) roam y 16
+\i (00:15:59) roam x -48
+\i (00:15:59) roam y 16
+\i (00:15:59) roam x -32
+\i (00:16:00) roam x -16
+\i (00:16:00) roam x -16
+\i (00:16:00) roam y 16
+\i (00:16:00) roam x -32
+\i (00:16:00) roam y 16
+\i (00:16:00) roam y 16
+\i (00:16:00) roam end
+\t (00:16:03) Pick to complete the window.
+\i (00:16:05) pick 2580.27 2364.31
+\t (00:16:05) last pick:  2580.27 2364.31
+\i (00:16:05) setwindow pcb
+\i (00:16:05) zoom points
+\i (00:16:05) pick -399.91 -63.02
+\i (00:16:05) pick 4729.14 2364.31
+\i (00:16:05) trapsize 2111
+\i (00:16:05) generaledit 
+\i (00:16:07) roam x -96 
+\i (00:16:07) roam x -96
+\i (00:16:13) plot preview 
+\i (00:17:11) zoom in 1 
+\i (00:17:11) setwindow pcb
+\i (00:17:11) zoom in -19.66 2022.37
+\i (00:17:11) trapsize 1055
+\i (00:17:12) pick grid 432.04 1944.28
+\t (00:17:12) last pick:  430.00 1940.00
+\i (00:17:13) prepopup 408.82 1940.06
+\i (00:17:24) pop dyn_option_select 'Change class/subclass@:@ETCH@:@BOTTOM' 
+\i (00:17:24) change class 
+\w (00:17:24) WARNING(SPMHGE-554): Text already matches option panel settings.
+\i (00:17:24) generaledit 
+\i (00:17:29) prepopup 603.01 1954.83
+\i (00:17:33) pick grid 134.43 1821.86
+\t (00:17:33) last pick:  130.00 1820.00
+\i (00:17:35) pick grid 624.11 1940.06
+\t (00:17:35) last pick:  620.00 1940.00
+\i (00:17:36) pick grid tgl 624.11 1872.51
+\t (00:17:36) last pick:  620.00 1870.00
+\i (00:17:36) pick grid tgl 624.11 1838.74
+\t (00:17:36) last pick:  620.00 1840.00
+\i (00:17:37) pick grid tgl 611.45 1758.53
+\t (00:17:37) last pick:  610.00 1760.00
+\i (00:17:39) prepopup 613.56 1758.53
+\i (00:17:47) pop dyn_option_select 'Change class/subclass@:@BOARD GEOMETRY@:@SILKSCREEN_TOP' 
+\i (00:17:47) change class 
+\t (00:17:47) No DRC errors detected.
+\t (00:17:47) Changed 4 items out of 4 items found.
+\i (00:17:48) generaledit 
+\i (00:17:50) prepopup 518.58 1739.54
+\i (00:17:55) pop dyn_option_select 'Change class/subclass@:@PACKAGE GEOMETRY@:@SILKSCREEN_BOTTOM' 
+\i (00:17:55) change class 
+\t (00:17:55) No DRC errors detected.
+\t (00:17:55) Changed 4 items out of 4 items found.
+\i (00:17:55) generaledit 
+\i (00:17:56) pick grid 85.88 1758.53
+\t (00:17:56) last pick:  90.00 1760.00
+\i (00:18:01) plot preview 
+\i (00:18:23) plot preview 
+\i (00:18:28) plot 
+\i (00:18:30) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:18:30) plotwint execute
+\i (00:20:09) zoom out 1 
+\i (00:20:09) setwindow pcb
+\i (00:20:09) zoom out 307.50 1779.64
+\i (00:20:09) trapsize 2111
+\i (00:20:09) zoom out 1 
+\i (00:20:09) setwindow pcb
+\i (00:20:09) zoom out 307.51 1779.64
+\i (00:20:09) trapsize 4221
+\i (00:20:21) ncdrill legend 
+   (00:20:22) Loading mfg.cxt 
+\i (00:20:23) setwindow form.nc_drilllegend
+\i (00:20:23) FORM nc_drilllegend done  
+\i (00:20:25) setwindow pcb
+\i (00:20:25) roam start
+\i (00:20:25) roam y -16
+\i (00:20:25) roam y -32
+\i (00:20:25) roam y -16
+\i (00:20:25) roam x -16
+\i (00:20:25) roam y -16
+\i (00:20:26) roam y -32
+\i (00:20:26) roam y -16
+\i (00:20:26) roam y -16
+\i (00:20:26) roam y -16
+\i (00:20:26) roam y -16
+\i (00:20:26) roam end
+\i (00:20:31) pick grid -19.67 3880.94
+\t (00:20:31) last pick:  -20.00 3880.00
+\t (00:20:31) NC Drill Legend generation successful
+\i (00:20:31) generaledit 
+\i (00:20:32) prepopup -771.09 3484.12
+\i (00:20:33) pick grid -1041.26 3644.54
+\t (00:20:33) last pick:  -1040.00 3640.00
+\i (00:20:38) color192 
+\i (00:20:38) generaledit 
+\i (00:20:39) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:20:43) QtSignal CVDLayerContainer CVDFilterLayerEntry editingFinished man
+\i (00:20:43) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:20:44) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Stack-Up
+\i (00:20:44) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Areas
+\i (00:20:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:20:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Components
+\i (00:20:45) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:20:46) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Drawing format"
+\i (00:20:46) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Rigid flex"
+\i (00:20:47) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged "Surface finishes"
+\i (00:20:51) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:20:53) pick grid 1761.78 3340.59
+\t (00:20:53) last pick:  1760.00 3340.00
+\i (00:21:04) color192 
+\i (00:21:04) generaledit 
+\i (00:21:08) QtSignal CVDLayerContainer CVDFilterLayerEntry editingFinished nc
+\i (00:21:08) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:21:09) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:21:11) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 2 0
+\i (00:21:11) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Nclegend-1-2 Mfg
+\i (00:21:11) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:16) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:21:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Legend Mfg
+\i (00:21:16) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:16) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:21:16) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Legend Mfg
+\i (00:21:16) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:24) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:21:24) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Legend Mfg
+\i (00:21:24) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:25) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:25) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 2 0
+\i (00:21:25) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Nclegend-1-2 Mfg
+\i (00:21:25) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:26) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:21:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Figure Mfg
+\i (00:21:26) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:26) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:21:26) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Legend Mfg
+\i (00:21:26) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:21:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Legend Mfg
+\i (00:21:28) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:28) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 2 0
+\i (00:21:28) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Nclegend-1-2 Mfg
+\i (00:21:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:29) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:21:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Legend Mfg
+\i (00:21:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:29) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:21:29) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Ncdrill_Figure Mfg
+\i (00:21:29) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:37) color192 
+\i (00:21:37) generaledit 
+\i (00:21:40) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry
+\i (00:21:42) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:21:55) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:21:57) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 4 0
+\i (00:21:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Nclegend-1-2 Mfg
+\i (00:21:57) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:21:59) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:22:00) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:22:01) zoom out 1 
+\i (00:22:01) setwindow pcb
+\i (00:22:01) zoom out 2538.52 773.96
+\i (00:22:01) trapsize 8443
+\i (00:22:01) zoom out 1 
+\i (00:22:01) setwindow pcb
+\i (00:22:01) zoom out 7519.82 773.96
+\i (00:22:01) trapsize 14783
+\i (00:22:01) zoom in 1 
+\i (00:22:01) setwindow pcb
+\i (00:22:01) zoom in 1346.09 -1107.83
+\i (00:22:01) trapsize 7391
+\i (00:22:01) zoom in 1 
+\i (00:22:01) setwindow pcb
+\i (00:22:01) zoom in 1316.53 -1122.61
+\i (00:22:01) trapsize 3696
+\i (00:22:03) roam start
+\i (00:22:04) roam x -128
+\i (00:22:04) roam y -32
+\i (00:22:04) roam x -16
+\i (00:22:04) roam x -32
+\i (00:22:04) roam y -32
+\i (00:22:04) roam x -48
+\i (00:22:04) roam y -32
+\i (00:22:04) roam x -32
+\i (00:22:04) roam y -16
+\i (00:22:04) roam end
+\i (00:22:05) drag_start grid 3829.56 -132.18
+\i (00:22:06) drag_stop -420.43 2343.91
+\i (00:22:08) prepopup 1043.04 2048.25
+\i (00:22:13) pick grid 3992.17 791.73
+\t (00:22:13) last pick:  3990.00 790.00
+\i (00:22:14) drag_start grid 3290.00 15.65
+\i (00:22:16) drag_stop -250.43 2314.34
+\i (00:22:16) zoom in 1 
+\i (00:22:16) setwindow pcb
+\i (00:22:16) zoom in 2144.35 703.04
+\i (00:22:16) trapsize 1848
+\i (00:22:16) zoom in 1 
+\i (00:22:16) setwindow pcb
+\i (00:22:16) zoom in 2159.13 677.17
+\i (00:22:16) trapsize 924
+\i (00:22:16) zoom in 1 
+\i (00:22:16) setwindow pcb
+\i (00:22:16) zoom in 2159.14 677.17
+\i (00:22:16) trapsize 462
+\i (00:22:16) zoom in 1 
+\i (00:22:16) setwindow pcb
+\i (00:22:16) zoom in 2159.14 677.18
+\i (00:22:16) trapsize 231
+\i (00:22:17) prepopup 2231.20 670.72
+\i (00:22:22) pick grid 2152.21 756.64
+\t (00:22:22) last pick:  2150.00 760.00
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 2152.21 756.64
+\i (00:22:23) trapsize 462
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 2152.21 756.64
+\i (00:22:23) trapsize 924
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 2152.20 756.64
+\i (00:22:23) trapsize 1848
+\i (00:22:23) zoom out 1 
+\i (00:22:23) setwindow pcb
+\i (00:22:23) zoom out 2152.20 756.63
+\i (00:22:23) trapsize 3696
+\i (00:22:24) zoom in 1 
+\i (00:22:24) setwindow pcb
+\i (00:22:24) zoom in 1427.86 778.80
+\i (00:22:24) trapsize 1848
+\i (00:22:24) roam start
+\i (00:22:24) roam x 32
+\i (00:22:24) roam y -128
+\i (00:22:24) roam y -64
+\i (00:22:24) roam y -16
+\i (00:22:25) roam y -16
+\i (00:22:25) roam y -96
+\i (00:22:25) roam y -48
+\i (00:22:25) roam y -48
+\i (00:22:25) roam y -48
+\i (00:22:25) roam x -16
+\i (00:22:25) roam y -64
+\i (00:22:25) roam x -16
+\i (00:22:25) roam y -80
+\i (00:22:25) roam y -48
+\i (00:22:25) roam y -16
+\i (00:22:25) roam end
+\i (00:22:25) zoom out 1 
+\i (00:22:25) setwindow pcb
+\i (00:22:25) zoom out 2325.39 2765.17
+\i (00:22:25) trapsize 3696
+\i (00:22:26) zoom out 1 
+\i (00:22:26) setwindow pcb
+\i (00:22:26) zoom out 2443.64 2395.62
+\i (00:22:26) trapsize 7391
+\i (00:22:27) drag_start grid -738.28 4125.16
+\i (00:22:29) drag_stop 7909.47 2277.35
+\i (00:22:29) zoom in 1 
+\i (00:22:29) setwindow pcb
+\i (00:22:29) zoom in 3400.82 2765.17
+\i (00:22:29) trapsize 3696
+\i (00:22:31) prepopup 3548.64 2661.70
+\i (00:23:27) pick grid 5270.80 4997.33
+\t (00:23:27) last pick:  5270.00 5000.00
+\i (00:23:29) plot preview 
+\i (00:23:33) zoom out 1 
+\i (00:23:33) setwindow pcb
+\i (00:23:33) zoom out 5411.24 3556.04
+\i (00:23:33) trapsize 7391
+\i (00:23:35) color192 
+\i (00:23:35) generaledit 
+\i (00:23:36) QtSignal CVDLayerContainer CVDVisibilityOn clicked
+\i (00:23:38) zoom in 1 
+\i (00:23:38) setwindow pcb
+\i (00:23:38) zoom in 917.36 1057.80
+\i (00:23:38) trapsize 3696
+\i (00:23:40) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:23:40) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:23:43) plot 
+\i (00:23:44) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:23:44) plotwint execute
+\i (00:25:01) open 
+\e (00:25:01) Do you want to save the changes you made to RGB_LED_SHIELD_FINAL.brd?
+\i (00:25:05) fillin no 
+\i (00:25:49) fillin "E:\year2\PCB\FINALASSIGNMENT\RGB_LED_SHIELD\symbols\CCAP100.dra"
+\i (00:25:49) cd "E:\year2\PCB\FINALASSIGNMENT\RGB_LED_SHIELD\symbols"
+\t (00:25:49) Opening existing design...
+\i (00:25:50) trapsize 4
+\i (00:25:50) trapsize 4
+\t (00:25:50)     Journal end - Thu Dec 13 09:50:56 2018
