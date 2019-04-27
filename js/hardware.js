@@ -52,8 +52,24 @@ function P_Soldering() {
     var d = document.getElementById("testid");
     d.classList = "content";
     d.innerHTML =
-        '<div class="center-text"><h1>Soldering</h1></div> \
-        <p>&emsp;&emsp;&emsp;&emsp;</p>\
+        '<div class="center-text"><h1>PCB Soldering</h1></div> \
+        <p>&emsp;&emsp;&emsp;&emsp;During my soldering course, we watched industry standard videos, Practiced soldering techniques and soldered PCBs </p>\
+        <p>&emsp;&emsp;&emsp;&emsp;This is a barrel jack to 5V or 3.3v regulator that I soldered, it also has a potentiometer that can control the voltage in smaller increments. This came in handy throughout my embedded controllers class.</p>\
+        <img src="../images/Soldering/PowerSupplyTOP.jpg" alt="VCCt (Image not found)" class="img">\
+        <img src="../images/Soldering/PowerSupplyBottom.jpg" alt="VCCb (Image not found)" class="img"> <div><br/></div>  \
+        <p>&emsp;&emsp;&emsp;&emsp;This is a multi-function Arduino shield. It has a photo-resistor, Temperature sensor, LEDs, 4 Digit 7-segment display, A cell battery, and a crystal. All of the components I soldered to the board.</p> \
+        <img src="../images/Soldering/MultifunctionShieldTop.jpg" alt="ShieldT (Image not found)" class="img"> <div><br/></div>  \
+        <p>Some areas don\'t have enough solder. Quite a few of them have too much solder and there is one where the board is damaged. (This last bit explains why)</p>\
+        <img src="../images/Soldering/MultifunctionShield.jpg" alt="Shield (Image not found)" class="img">\
+        <img src="../images/Soldering/MultifunctionShieldChip.jpg" alt="ShieldC (Image not found)" class="img"> <div><br/></div>  \
+        <p>&emsp;&emsp;&emsp;&emsp;This is a freeduino, It\'s fully compatible with arduino shields and software, but cheaper. I soldered all the components onto this board except the microchip and the USB port.</p> \
+        <img src="../images/Soldering/ArduinoTop.jpg" alt="ArduinoT (Image not found)" class="img">\
+        <img src="../images/Soldering/ArduinoHeader.jpg" alt="ArduinoH (Image not found)" class="img">\
+        <img src="../images/Soldering/ArduinoPower.jpg" alt="ArduinoP (Image not found)" class="img"> <div><br/></div>  \
+        <p>&emsp;&emsp;&emsp;&emsp;When I went to test this board with the shield, it didn\'t work. I re-soldered (I didn\'t de-solder, just reheated and added some) the pins that connected to headers and chips to try and fix the problem, it didn\'t. My teacher inspected the board under a microscope, eventually we noticed this (the picture below) problem. On the freeduino board, there was a copper etching that connected these two pins. My teacher scratched the connection out.</p> \
+        <p>&emsp;&emsp;&emsp;&emsp;My Shield on my freeduino still did not work. However, my shield did work on other peoples arduinos, and my freeduino was able to use other peoples shields. The Freeduino did stop turning on altogether; I believe that that connection is what cause it to break. </p> \
+        <img src="../images/Soldering/ArduinoChipError.jpg" alt="ArduinoP (Image not found)" class="img"> <div><br/></div> <div><br/></div> \
+        <p>&emsp;&emsp;&emsp;&emsp;I used parts from the shield for my Embedded Controllers class. and the regulator also helped during my Digital Circuits class</p> \
         ';
 
 
