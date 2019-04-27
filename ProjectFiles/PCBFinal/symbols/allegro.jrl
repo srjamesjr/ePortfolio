@@ -1,0 +1,440 @@
+\t (00:25:50) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:25:50)     Journal start - Thu Dec 13 09:50:56 2018
+\t (00:25:50)         Host=INWSB150A17 User=w0287666 Pid=3652 CPUs=4
+\t (00:25:50) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:25:50) 
+\d (00:25:50) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/CCAP100.dra
+\i (00:25:50) generaledit 
+\i (00:26:29) plot 
+\i (00:26:34) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:26:34) plotwint execute
+\i (00:26:37) open 
+\i (00:26:39) fillin "con4.dra"
+\t (00:26:39) Opening existing design...
+\i (00:26:39) trapsize 32935
+\i (00:26:39) trapsize 33884
+\i (00:26:40) trapsize 39022
+\d (00:26:40) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con4.dra
+\i (00:26:40) generaledit 
+\i (00:26:42) plot 
+\i (00:26:44) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:26:44) plotwint execute
+\i (00:26:45) open 
+\i (00:26:46) fillin "con5.dra"
+\t (00:26:46) Opening existing design...
+\i (00:26:46) trapsize 27156
+\i (00:26:47) trapsize 27938
+\i (00:26:47) trapsize 32175
+\d (00:26:47) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con5.dra
+\i (00:26:47) generaledit 
+\i (00:26:48) plot 
+\i (00:26:49) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:26:49) plotwint execute
+\i (00:26:52) open 
+\i (00:26:53) fillin "con6.dra"
+\t (00:26:53) Opening existing design...
+\i (00:26:53) trapsize 27345
+\i (00:26:54) trapsize 28132
+\i (00:26:54) trapsize 28132
+\d (00:26:54) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con6.dra
+\i (00:26:54) generaledit 
+\i (00:26:57) plot preview 
+\i (00:27:01) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:27:01) plotwint execute
+\i (00:27:03) open 
+\i (00:27:06) fillin "con8.dra"
+\t (00:27:06) Opening existing design...
+\i (00:27:06) trapsize 53936
+\i (00:27:06) trapsize 55490
+\i (00:27:06) trapsize 55490
+\d (00:27:06) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con8.dra
+\i (00:27:06) generaledit 
+\i (00:27:09) plot 
+\i (00:27:10) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:27:10) plotwint execute
+\i (00:27:11) open 
+\i (00:27:13) fillin "DIP28_S.dra"
+\t (00:27:13) Opening existing design...
+\i (00:27:13) trapsize 45870
+\i (00:27:13) trapsize 47191
+\i (00:27:13) trapsize 54348
+\d (00:27:13) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/DIP28_S.dra
+\i (00:27:14) generaledit 
+\i (00:27:16) plot 
+\i (00:27:20) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:27:20) plotwint execute
+\i (00:27:21) open 
+\i (00:27:23) fillin "RGB.dra"
+\t (00:27:23) Opening existing design...
+\i (00:27:23) trapsize 66
+\i (00:27:23) trapsize 68
+\i (00:27:23) trapsize 68
+\d (00:27:23) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/RGB.dra
+\i (00:27:23) generaledit 
+\i (00:27:25) plot 
+\i (00:27:26) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:27:26) plotwint execute
+\i (00:27:27) open 
+\i (00:27:29) fillin "Switch.dra"
+\t (00:27:29) Opening existing design...
+\i (00:27:29) trapsize 52826
+\i (00:27:29) trapsize 54348
+\i (00:27:29) trapsize 54348
+\d (00:27:29) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/Switch.dra
+\i (00:27:29) generaledit 
+\i (00:27:30) plot 
+\i (00:27:31) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:27:31) plotwint execute
+\i (00:31:14) open 
+\i (00:31:15) fillin "con2.dra"
+\t (00:31:15) Opening existing design...
+\i (00:31:16) trapsize 26782
+\i (00:31:16) trapsize 27553
+\i (00:31:16) trapsize 27745
+\d (00:31:16) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con2.dra
+\i (00:31:16) generaledit 
+\i (00:31:22) zoom in 1 
+\i (00:31:22) setwindow pcb
+\i (00:31:22) zoom in -27.6881 -2.7625
+\i (00:31:22) trapsize 13873
+\i (00:31:22) zoom in 1 
+\i (00:31:22) setwindow pcb
+\i (00:31:22) zoom in -27.6881 -2.7625
+\i (00:31:22) trapsize 6936
+\i (00:31:41) zoom out 1 
+\i (00:31:41) setwindow pcb
+\i (00:31:41) zoom out 14.2070 -0.9590
+\i (00:31:41) trapsize 13873
+\i (00:31:44) roam start
+\i (00:31:44) roam x 80
+\i (00:31:44) roam y 32
+\i (00:31:44) roam x 16
+\i (00:31:44) roam x 112
+\i (00:31:44) roam y 32
+\i (00:31:44) roam x 48
+\i (00:31:45) roam x 48
+\i (00:31:45) roam x 48
+\i (00:31:45) roam x 16
+\i (00:31:46) roam end
+\i (00:31:50) plot preview 
+\i (00:32:27) plot 
+\i (00:32:28) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:32:28) plotwint execute
+\i (00:32:30) open 
+\i (00:32:31) fillin "con4.dra"
+\t (00:32:32) Opening existing design...
+\i (00:32:32) trapsize 32935
+\i (00:32:32) trapsize 33884
+\i (00:32:32) trapsize 39022
+\d (00:32:32) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con4.dra
+\i (00:32:32) generaledit 
+\i (00:32:33) zoom in 1 
+\i (00:32:33) setwindow pcb
+\i (00:32:33) zoom in 121.7110 -125.0886
+\i (00:32:33) trapsize 19511
+\i (00:32:37) plot preview 
+\i (00:32:40) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:32:40) plotwint execute
+\i (00:33:42) plot setup 
+\i (00:34:59) setwindow form.fpfileplotsetup
+\i (00:34:59) FORM fpfileplotsetup fpplotscaling YES 
+\i (00:35:00) FORM fpfileplotsetup fpplotfittopage YES 
+\i (00:35:02) FORM fpfileplotsetup fpplotautocenter NO 
+\i (00:35:04) FORM fpfileplotsetup cancel  
+\i (00:35:05) setwindow pcb
+\i (00:35:05) generaledit 
+\i (00:35:07) plot preview 
+\i (00:35:25) drag_start grid -60.1334 9.9289
+\i (00:35:25) move 
+\t (00:35:25) last pick:  -50.0000 0.0000
+\t (00:35:25) Pick new location for the element(s).
+\i (00:35:26) drag_stop grid -72.2304 15.3920
+\i (00:35:26) generaledit 
+\i (00:35:30) undo 
+\i (00:35:30) trapsize 19511
+\i (00:35:30) generaledit 
+\i (00:35:33) generaledit 
+\i (00:35:46) drag_start grid -27.3546 -36.8980
+\i (00:35:46) move 
+\t (00:35:46) last pick:  -49.0000 -43.0000
+\t (00:35:46) Pick new location for the element(s).
+\i (00:35:50) drag_stop grid 142.3928 -29.0935
+\i (00:35:50) generaledit 
+\i (00:35:53) define grid 
+\t (00:35:53) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:35:53) generaledit 
+\i (00:35:55) setwindow form.grid
+\i (00:35:55) FORM grid non_etch non_etch_x_grids 1 
+\i (00:35:56) FORM grid non_etch non_etch_y_grids 1 
+\i (00:35:57) FORM grid done  
+\i (00:35:58) setwindow pcb
+\i (00:35:58) drag_start grid 133.8079 4.8560
+\i (00:35:58) move 
+\t (00:35:58) last pick:  100.0000 0.0000
+\t (00:35:58) Pick new location for the element(s).
+\i (00:36:04) drag_stop grid 116.2478 -44.7025
+\i (00:36:04) generaledit 
+\i (00:36:04) pick grid 50.3000 -87.6271
+\t (00:36:04) last pick:  50.0000 -88.0000
+\i (00:36:14) pick grid 42.4955 -79.4324
+\t (00:36:14) last pick:  42.0000 -79.0000
+\i (00:36:14) drag_start grid -30.8666 -71.2377
+\i (00:36:14) move 
+\t (00:36:14) last pick:  -54.0000 -84.0000
+\t (00:36:14) Pick new location for the element(s).
+\i (00:36:18) drag_stop grid -51.1583 61.0482
+\i (00:36:18) generaledit 
+\i (00:36:19) drag_start grid -57.7921 6.8071
+\i (00:36:19) move 
+\t (00:36:19) last pick:  -50.0000 0.0000
+\t (00:36:19) Pick new location for the element(s).
+\i (00:36:21) drag_stop grid -32.0373 9.5387
+\i (00:36:21) generaledit 
+\i (00:36:21) pick grid -73.4010 -14.2650
+\t (00:36:21) last pick:  -73.0000 -14.0000
+\i (00:36:24) plot preview 
+\i (00:36:30) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:36:30) plotwint execute
+\i (00:37:23) drag_start grid 245.0218 11.4898
+\i (00:37:23) move 
+\t (00:37:23) last pick:  250.0000 0.0000
+\t (00:37:23) Pick new location for the element(s).
+\i (00:37:25) drag_stop grid 260.6307 -10.3628
+\i (00:37:25) generaledit 
+\i (00:37:26) drag_start grid 146.2951 8.3680
+\i (00:37:26) move 
+\t (00:37:26) last pick:  150.0000 0.0000
+\t (00:37:26) Pick new location for the element(s).
+\i (00:37:27) drag_stop grid 161.1236 14.2214
+\i (00:37:27) generaledit 
+\i (00:37:28) drag_start grid 255.5578 -5.2898
+\i (00:37:28) move 
+\t (00:37:28) last pick:  261.0000 -10.0000
+\t (00:37:28) Pick new location for the element(s).
+\i (00:37:30) drag_stop grid 268.8254 13.8311
+\i (00:37:30) generaledit 
+\i (00:37:32) drag_start grid 45.2271 0.5635
+\i (00:37:32) move 
+\t (00:37:32) last pick:  50.0000 0.0000
+\t (00:37:32) Pick new location for the element(s).
+\i (00:37:33) drag_stop grid 63.9578 15.7823
+\i (00:37:33) generaledit 
+\i (00:37:35) zoom in 1 
+\i (00:37:35) setwindow pcb
+\i (00:37:35) zoom in 26.1061 2.1244
+\i (00:37:35) trapsize 9756
+\i (00:37:35) zoom out 1 
+\i (00:37:35) setwindow pcb
+\i (00:37:35) zoom out 27.4719 5.0511
+\i (00:37:35) trapsize 19511
+\i (00:37:35) zoom out 1 
+\i (00:37:35) setwindow pcb
+\i (00:37:35) zoom out 21.6185 16.7579
+\i (00:37:35) trapsize 39022
+\i (00:37:36) zoom in 1 
+\i (00:37:36) setwindow pcb
+\i (00:37:36) zoom in -4.1363 67.4870
+\i (00:37:36) trapsize 19511
+\i (00:37:36) zoom in 1 
+\i (00:37:36) setwindow pcb
+\i (00:37:36) zoom in -7.6483 75.2915
+\i (00:37:36) trapsize 9756
+\i (00:37:37) zoom out 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom out -14.0870 76.8524
+\i (00:37:37) trapsize 19511
+\i (00:37:47) drag_start grid -21.1110 72.5600
+\i (00:37:47) move 
+\t (00:37:47) last pick:  -51.0000 61.0000
+\t (00:37:47) Pick new location for the element(s).
+\i (00:37:49) drag_stop grid 120.5403 61.2435
+\i (00:37:49) generaledit 
+\i (00:37:50) pick grid 85.4201 72.9502
+\t (00:37:50) last pick:  85.0000 73.0000
+\i (00:38:12) plot setup 
+\i (00:38:14) setwindow form.fpfileplotsetup
+\i (00:38:14) FORM fpfileplotsetup fpplotblackwhite YES 
+\i (00:38:18) FORM fpfileplotsetup fpplotscreencontents YES 
+\i (00:38:23) FORM fpfileplotsetup done  
+\i (00:38:23) setwindow pcb
+\i (00:38:23) generaledit 
+\i (00:38:25) plot preview 
+\i (00:38:29) plot 
+\i (00:38:31) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:38:31) plotwint execute
+\i (00:39:06) open 
+\e (00:39:06) Do you want to save the changes you made to con4.dra?
+\i (00:39:07) fillin no 
+\i (00:39:09) fillin "con2.dra"
+\t (00:39:09) Opening existing design...
+\i (00:39:09) trapsize 26782
+\i (00:39:09) trapsize 27553
+\i (00:39:09) trapsize 27745
+\d (00:39:09) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con2.dra
+\i (00:39:10) generaledit 
+\i (00:39:13) plot setup 
+\i (00:39:20) setwindow form.fpfileplotsetup
+\i (00:39:20) FORM fpfileplotsetup fpplotsheetcontents YES 
+\i (00:39:21) FORM fpfileplotsetup fpplotscreencontents YES 
+\i (00:39:26) FORM fpfileplotsetup windows  
+\i (00:39:27) FORM fpfileplotsetup general  
+\i (00:39:29) FORM fpfileplotsetup cancel  
+\i (00:39:29) setwindow pcb
+\i (00:39:29) generaledit 
+\i (00:39:29) roam start
+\i (00:39:29) roam x 48
+\i (00:39:30) roam x 32
+\i (00:39:30) roam y 16
+\i (00:39:30) roam x 16
+\i (00:39:30) roam end
+\t (00:39:31) Pick to complete the window.
+\i (00:39:32) zoom in 1 
+\i (00:39:32) setwindow pcb
+\i (00:39:32) zoom in 79.5198 -21.2193
+\i (00:39:32) trapsize 13873
+\i (00:39:32) zoom out 1 
+\i (00:39:32) setwindow pcb
+\i (00:39:32) zoom out 79.5198 -21.2192
+\i (00:39:32) trapsize 27745
+\i (00:39:33) zoom points
+\i (00:39:33) pick 123.9120 -63.3918
+\i (00:39:33) pick 34.7997 -21.2193
+\i (00:39:33) trapsize 3667
+\i (00:39:33) generaledit 
+\i (00:39:33) zoom out 1 
+\i (00:39:33) setwindow pcb
+\i (00:39:33) zoom out 84.6733 -44.7626
+\i (00:39:33) trapsize 7334
+\i (00:39:33) zoom out 1 
+\i (00:39:33) setwindow pcb
+\i (00:39:33) zoom out 84.6733 -44.7625
+\i (00:39:33) trapsize 14669
+\i (00:39:35) roam start
+\i (00:39:35) roam y -64
+\i (00:39:36) roam end
+\i (00:39:38) drag_start grid 43.6009 9.3184
+\i (00:39:38) move 
+\t (00:39:38) last pick:  50.0000 0.0000
+\t (00:39:38) Pick new location for the element(s).
+\i (00:39:39) drag_stop grid 47.1213 -0.6563
+\i (00:39:39) generaledit 
+\i (00:39:43) define grid 
+\t (00:39:43) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:39:43) generaledit 
+\i (00:39:45) setwindow form.grid
+\i (00:39:45) FORM grid non_etch non_etch_x_grids 1 
+\i (00:39:46) FORM grid non_etch non_etch_y_grids 1 
+\i (00:39:47) FORM grid done  
+\i (00:39:48) setwindow pcb
+\i (00:39:48) drag_start grid -5.3926 20.1733
+\i (00:39:48) move 
+\t (00:39:48) last pick:  0.0000 0.0000
+\t (00:39:48) Pick new location for the element(s).
+\i (00:39:49) drag_stop grid 67.0708 12.5456
+\i (00:39:49) generaledit 
+\i (00:39:50) drag_start grid -56.1463 5.7980
+\i (00:39:50) move 
+\t (00:39:50) last pick:  -50.0000 0.0000
+\t (00:39:50) Pick new location for the element(s).
+\i (00:39:52) drag_stop grid -32.6764 17.8263
+\i (00:39:52) generaledit 
+\i (00:40:00) pick grid -83.7235 -51.1166
+\t (00:40:00) last pick:  -84.0000 -51.0000
+\i (00:40:02) undo 
+\i (00:40:02) trapsize 14669
+\i (00:40:02) generaledit 
+\i (00:40:02) undo 
+\i (00:40:02) trapsize 14669
+\i (00:40:02) generaledit 
+\i (00:40:03) undo 
+\i (00:40:03) trapsize 14669
+\i (00:40:03) generaledit 
+\i (00:40:09) pick grid -85.4837 45.9902
+\t (00:40:09) last pick:  -85.0000 46.0000
+\e (00:40:11) Command not found: ~Z
+\e (00:40:11) Command not found: ~Z
+\i (00:40:13) plot preview 
+\i (00:40:20) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:40:20) plotwint execute
+\i (00:40:22) open 
+\e (00:40:22) Do you want to save the changes you made to con2.dra?
+\i (00:40:24) fillin no 
+\i (00:40:27) fillin "con5.dra"
+\t (00:40:27) Opening existing design...
+\i (00:40:27) trapsize 27156
+\i (00:40:27) trapsize 27938
+\i (00:40:27) trapsize 32175
+\d (00:40:27) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con5.dra
+\i (00:40:28) generaledit 
+\i (00:40:30) plot 
+\i (00:40:31) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:40:31) plotwint execute
+\i (00:40:33) open 
+\i (00:40:37) fillin "con6.dra"
+\t (00:40:37) Opening existing design...
+\i (00:40:37) trapsize 27345
+\i (00:40:37) trapsize 28132
+\i (00:40:37) trapsize 28132
+\d (00:40:37) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con6.dra
+\i (00:40:37) generaledit 
+\i (00:40:40) plot 
+\i (00:40:41) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:40:41) plotwint execute
+\i (00:40:42) open 
+\i (00:40:45) fillin "con8.dra"
+\t (00:40:45) Opening existing design...
+\i (00:40:45) trapsize 53936
+\i (00:40:45) trapsize 55490
+\i (00:40:45) trapsize 55490
+\d (00:40:45) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con8.dra
+\i (00:40:45) generaledit 
+\i (00:40:47) plot 
+\i (00:40:48) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:40:48) plotwint execute
+\i (00:40:49) open 
+\i (00:40:50) fillin "DIP28_S.dra"
+\t (00:40:50) Opening existing design...
+\i (00:40:51) trapsize 45870
+\i (00:40:51) trapsize 47191
+\i (00:40:51) trapsize 54348
+\d (00:40:51) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/DIP28_S.dra
+\i (00:40:51) generaledit 
+\i (00:41:37) open 
+\i (00:41:39) fillin "con8.dra"
+\t (00:41:39) Opening existing design...
+\i (00:41:39) trapsize 53936
+\i (00:41:39) trapsize 55490
+\i (00:41:39) trapsize 55490
+\d (00:41:39) Design opened: E:/year2/PCB/FINALASSIGNMENT/RGB_LED_SHIELD/symbols/con8.dra
+\i (00:41:40) generaledit 
+\i (00:41:43) zoom in 1 
+\i (00:41:43) setwindow pcb
+\i (00:41:43) zoom in 335.0366 -65.8530
+\i (00:41:43) trapsize 27745
+\i (00:41:43) zoom out 1 
+\i (00:41:43) setwindow pcb
+\i (00:41:43) zoom out 332.8170 -78.0608
+\i (00:41:43) trapsize 55490
+\t (00:41:44) Pick to complete the window.
+\i (00:41:47) pick 760.0915 89.5195
+\t (00:41:47) last pick:  760.0915 89.5195
+\i (00:41:47) setwindow pcb
+\i (00:41:47) zoom points
+\i (00:41:47) pick -102.2261 -105.8060
+\i (00:41:47) pick 760.0915 302.2866
+\i (00:41:47) trapsize 35486
+\i (00:41:47) generaledit 
+\i (00:41:48) roam start
+\i (00:41:48) roam x 16
+\i (00:41:48) roam y 32
+\i (00:41:48) roam y 32
+\i (00:41:49) roam x 32
+\i (00:41:49) roam y 32
+\i (00:41:49) roam y 16
+\i (00:41:49) roam y 16
+\i (00:41:50) roam end
+\i (00:42:29) plot 
+\i (00:42:30) plotwint initialize "\\NSCCINPS1\Inst Printer B150a Kyocera FS-4200DN"
+\i (00:42:30) plotwint execute
+\i (01:41:13) exit 
+\t (01:41:21)     Journal end - Thu Dec 13 11:06:27 2018

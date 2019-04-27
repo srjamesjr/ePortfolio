@@ -1,0 +1,27 @@
+<HTML><HEAD><STYLE TYPE="text/css">.errorMessage { color:darkred; font-weight:bold; font-style:italic; text-decoration:underline; }</STYLE></HEAD><BODY><PRE>
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : con4.dra                                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Mon Dec 10 09:22:07 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = E:/year2/PCB/FinalRGBLED/symbols
+    Name      = con4.psm
+    User      = w0287666
+    Machine   = INWSB25707
+
+
+Create symbol started.
+ 
+ <b><i><font color="darkred">ERROR(SPMHCS-1)</i></b></font>: Symbol is missing a refdes. 
+
+<b><i><font color="darkred">ERROR(SPMHA1-291)</i></b></font>: Create symbol has been aborted.
+
+</PRE>
+</BODY></HTML>
