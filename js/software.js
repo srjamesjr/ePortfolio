@@ -46,7 +46,8 @@ function P_BattleShip() {
         </div>  <div><br/></div>  \
         <button class="collapsible">Files: &#9660;</button> \
         <div class="section"> \
-        <p> this is a test my good sir, m\'lady (2) </p>  \
+        <p> The files for Python Battleship can be found here </p>  \
+        <p> <a href="https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/Python">https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/Python</a></p>\
         </div>  <div><br/></div> \
         ';
 }
