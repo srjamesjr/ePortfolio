@@ -17,7 +17,7 @@ function P_Goals() {
         <p>&emsp;&emsp;&emsp;&emsp;Update my linkedin: I\'d like to make my linkedin have relevant information, a good layout,my best work, and a link to this website </p>\
         <div class="center-text"><h4>Long-term Goals</h4></div> \
         <p>&emsp;&emsp;&emsp;&emsp;Learn C++: I really like C99, and C++ is an industry standard, it would be really nice to learn it.</p>\
-        <p>&emsp;&emsp;&emsp;&emsp;Learn some graphical design: As you can see by looking at my projects, I\'m not an artist. Everything that\'s seen by another person could benefit from looking nice</p>\
+        <p>&emsp;&emsp;&emsp;&emsp;Learn some graphical design: As you can see by looking at my projects, I\'m not an artist. I\'m getting better though </p>\
         \
         ';
 }
