@@ -79,8 +79,10 @@ function P_RPG() {
         <p>&emsp;&emsp;&emsp;&emsp;when you summon a monster an image of them shows up and health bars are updated. Monsters, like you have spells then can use. above your health bar there are status effects. these are things that effect you over multiple turns (paralyse, damage over time, double damage). spells also have a cooldown. depending on how powerfull they are, they can only be used once every so many turns.</p> \
         <img src="../images/RPG/magecombat.PNG" alt="mage battle(Image not found)" class="img">\
         <img src="../images/RPG/witch.PNG" alt="a witch(Image not found)" class="img">\
-        <p>&emsp;&emsp;&emsp;&emsp;defeating monsters awards you with gold. In the shop there are 3 weapons you can buy and equip. the weapons have 2 unique spell effects each, that are cast when you basic attack. 2 of the swords were the first things that I drew, they have a cool effect when you hover over them and a cooler effect when you buy them</p> \
         <img src="../images/RPG/destroyed.PNG" alt="dead knight(Image not found)" class="img">\
+        <p>&emsp;&emsp;&emsp;&emsp;defeating monsters awards you with gold. In the shop there are 3 weapons you can buy and equip. the weapons have 2 unique spell effects each, that are cast when you basic attack. 2 of the swords were the first things that I drew, they have a cool effect when you hover over them and a cooler effect when you buy them</p> \
+        <img src="../images/RPG/shop.PNG" alt="shop(Image not found)" class="img">\
+        <img src="../images/RPG/swords.PNG" alt="swords(Image not found)" class="img">\
         </div>  <div><br/></div> \
          <button class="collapsible">Obstacles: &#9660;</button>\
         <div class="section">  \
