@@ -53,3 +53,54 @@ function P_BattleShip() {
 }
 
 //<p>&emsp;&emsp;&emsp;&emsp;</p>
+
+
+function P_RPG() {
+    var d = document.getElementById("testid");
+    d.classList = "content";
+    d.innerHTML =
+        '<div class=\"center-text\"><h1>Java RPG</h1></div> \
+        <p>&emsp;&emsp;&emsp;&emsp;As an assignment in my first year, second semester we had to create a "player vs player game" one player was controlled by you and the other a computer player. players took turns dealing damage to each other by pressing an attack button then generates a random number. there also had to be a way to buy and equip weapons to modify your damage. the game had to be made with jframes, with a button to attack, and to buy weapons. The combat had to be text based.</p>\
+        <p>&emsp;&emsp;&emsp;&emsp;I went a lot further then the assignment wanted. </p>\
+        <button class="collapsible">The project: &#9660;</button> \
+        <div class="section">  \
+        <p>&emsp;&emsp;&emsp;&emsp;All images for this project are drawn by me. I started by putting a lot of effort in, but quickly realised I would not be able to finish in time if I continued. spell names and effects are based on World of Warcraft.</p>\
+        <p>&emsp;&emsp;&emsp;&emsp;when you start the game, the first screen is a main menu, except there is only one button. on hover the text changes, on click it brings you to the game</p>\
+        <img src="../images/RPG/main.PNG" alt="main menu(Image not found)" class="img">\
+        <p>&emsp;&emsp;&emsp;&emsp;the next screen prompts you to choose a character, a mage or a paladin.</p> \
+        <img src="../images/RPG/character.PNG" alt="character select(Image not found)" class="img"> \
+        <p>&emsp;&emsp;&emsp;&emsp;The next screen depending of if you choose mage or paladin will have 5 unique spells for each character. </p> \
+        <img src="../images/RPG/mage.PNG" alt="mage(Image not found)" class="img">\
+        <img src="../images/RPG/paladin.PNG" alt="paladin(Image not found)" class="img">\
+        <p>&emsp;&emsp;&emsp;&emsp;You are able to choose 3 spells to use in the game. each spell has a unique effect. once you have chosen 3 you are brought to the main screen. The order you click the spells on the choosing screen determines what order they show up in the game (this was hard, see obstacles)</p> \
+        <img src="../images/RPG/mage1.PNG" alt="mage spells(Image not found)" class="img">\
+        <p>&emsp;&emsp;&emsp;&emsp;From the top down, you have your enemies health; The find monster button, this will summon a monster you have to fight. then you have the combat log which details every action and effect of the battle.  From the left of the screen you have your health bar. Then 4 circles. These are you actions 1 blue and 3 red. each spell has a colour on the top edge corresponding  to what action it uses. when you click a spell it uses an action. you get 1 blue action every turn of combat, ending the turn. multiple red actions can be used a turn except they can only be used once per monster (unless you use the "divine favour" spell). Next to that is gold, which can be used at the shop. below that are your spells, a basic attack uses the weapon you bought from the store.</p>\
+        <img src="../images/RPG/maingame.PNG" alt="main game(Image not found)" class="img">\
+        <p>&emsp;&emsp;&emsp;&emsp;when you summon a monster an image of them shows up and health bars are updated. Monsters, like you have spells then can use. above your health bar there are status effects. these are things that effect you over multiple turns (paralyse, damage over time, double damage). spells also have a cooldown. depending on how powerfull they are, they can only be used once every so many turns.</p> \
+        <img src="../images/RPG/magecombat.PNG" alt="mage battle(Image not found)" class="img">\
+        <img src="../images/RPG/witch.PNG" alt="a witch(Image not found)" class="img">\
+        <p>&emsp;&emsp;&emsp;&emsp;defeating monsters awards you with gold. In the shop there are 3 weapons you can buy and equip. the weapons have 2 unique spell effects each, that are cast when you basic attack. 2 of the swords were the first things that I drew, they have a cool effect when you hover over them and a cooler effect when you buy them</p> \
+        <img src="../images/RPG/destroyed.PNG" alt="dead knight(Image not found)" class="img">\
+        </div>  <div><br/></div> \
+         <button class="collapsible">Obstacles: &#9660;</button>\
+        <div class="section">  \
+        <p>&emsp;&emsp;&emsp;&emsp; This was the first assignment where we had to use GUIs, and it wasn\'t supposed to be hard but, the extra functionality I wanted was a challenge with my limited knowledge. I also wanted to keep visual code separate from the functionality code. This was so that in the future I could change the look of the game but have it still be functional. </p>\
+        <p>&emsp;&emsp;&emsp;&emsp; </p>\
+        <p>&emsp;&emsp;&emsp;&emsp; I wanted the code for this game to be very dynamic, this maid everything a lot harder then it needed to be. spells for example; I had to make them Association objects because I wanted the freedom of being able to cast a spell from anything I chose; I also wanted the ability to change the position  of spells like in RPGs. From what i remember this was the hardest part of the assignment.</p>\
+        <p>&emsp;&emsp;&emsp;&emsp; What I did was make the abstract player have spell slots that were abstract spells. Then, because I didn\'t want a file for each spell, I had one file with a bunch of functions to create each spell.  With this system all you would need to add a spell would be to edit the abstract player to add the spells effects, and add a function that creates the abstract spell with the stats/name of it. </p>\
+        <p>&emsp;&emsp;&emsp;&emsp; </p>\
+        <p>&emsp;&emsp;&emsp;&emsp; I remember having a lot of trouble with Eclipse GitHub during this assignment. I had all my assignments and in-class programs stored in one repository, each being a java package. I didn\'t know about merging at the time, any major changes where a real problem</p>\
+        </div>  <div><br/></div> \
+        \
+        <button class="collapsible">What I would do Differently: &#9660;</button> \
+        <div class="section"> \
+        <p>&emsp;&emsp;&emsp;&emsp;The spell book I tried to make for spell selection looks worse then the stick figures. I\'d also add a image for a sheep for the polymorph effect. </p>\
+        <p>&emsp;&emsp;&emsp;&emsp;spells could definitely  be done differently. It would probably be easier for a spell object to take in a player object and modify it. that way you could code what spells do in the spell rather then on the player.</p>\
+        </div>  <div><br/></div>  \
+        <button class="collapsible">Files: &#9660;</button> \
+        <div class="section"> \
+        <p> The files for my RPG game can be found here </p>  \
+        <p> <a href="https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/RPG">https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/RPG</a></p>\
+        </div>  <div><br/></div> \
+        ';
+}
