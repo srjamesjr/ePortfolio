@@ -106,3 +106,28 @@ function P_RPG() {
         </div>  <div><br/></div> \
         ';
 }
+
+
+function P_Programming() {
+    var d = document.getElementById("testid");
+    d.classList = "content";
+    d.innerHTML =
+        '<div class="center-text"><h1>Programming (Skill area)</h1></div> \
+        <p>&emsp;&emsp;&emsp;&emsp;I started with programing in grade 10 with a TI-84. The first full program I created solved the quadric formula for me. I learn TI-BASIC mostly though trial and error, I would just play around with one of the function until I figured out what it did. Math class got a lot easier after that.</p>\
+        <img src="../images/programming(skillArea)/Picture2.png" alt="TI84 (Image not found)" class="img"> <div><br/></div>  \
+        <p>&emsp;&emsp;&emsp;&emsp;Grade 11 is when I started programming on a computer. I had Rainmeter, a program used to create customized desktops. I created a Parallax effect for my desktop by editing an image into multiple layers and making them shift as I move my mouse. </p> \
+        <img src="../images/programming(skillArea)/Picture3.png" alt="rainmeter (Image not found)" class="img"> <div><br/></div>  \
+        <video width="320" height="240" controls>\n' +
+        '  <source src="../images/programming(skillArea)/parallax.mp4" type="video/mp4">\n' +
+        'Your browser does not support the video tag (MP4).\n' +
+        '</video>\
+                <p>&emsp;&emsp;&emsp;&emsp;In grade 11 I also tried to make mods for the games Don’t Starve and Minecraft, I couldn’t get them to work. I did write some scripts for a game called Tabletop Simulator, which allows you to write scripts in LUA to effect custom models in the game. </p> \
+                <p>&emsp;&emsp;&emsp;&emsp;In grade 11 I also took a grade 12 Java course. The final project for that class was to create a command line blackjack. This code is pretty awful, there no line spacing, no functions, 3 comments, and terrible variable names.</p> \
+                <img src="../images/programming(skillArea)/Picture1.png" alt="blackjack (Image not found)" class="img"><div><br/></div> \
+                <p>&emsp;&emsp;&emsp;&emsp;Now I can code in python, Java, Java for android, C (c99 and Arduino), PHP (and Laravel), CSS, HTML. A little bit of SQL, LUA, shell, Batch </p> \
+                <p>&emsp;&emsp;&emsp;&emsp;Here is some recent code to contrast my code in grade 11. This is a header file for a Maze game I wrote. In this game you can solve the maze, or you can have the maze automatically solved.</p> \
+                <img src="../images/programming(skillArea)/c99.png" alt="Maze (Image not found)" class="img"><div><br/></div> \
+                ';
+    // <p>&emsp;&emsp;&emsp;&emsp;I used parts from the shield for my Embedded Controllers class. and the regulator also helped during my Digital Circuits class</p>
+
+}

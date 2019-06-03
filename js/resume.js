@@ -18,6 +18,6 @@ function P_Goals() {
         <div class="center-text"><h4>Long-term Goals</h4></div> \
         <p>&emsp;&emsp;&emsp;&emsp;Learn C++: I really like C99, and C++ is an industry standard, it would be really nice to learn it.</p>\
         <p>&emsp;&emsp;&emsp;&emsp;Learn some graphical design: As you can see by looking at my projects, I\'m not an artist. I\'m getting better though </p>\
-        \
+        <p>&emsp;&emsp;&emsp;&emsp;get hired for a stable job that I enjoy</p>\
         ';
 }

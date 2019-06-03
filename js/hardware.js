@@ -51,8 +51,7 @@ function P_Soldering() {
     var d = document.getElementById("testid");
     d.classList = "content";
     d.innerHTML =
-        '<div class="center-text"><h1>PCB Soldering</h1></div> \
-        <p>**This page of the website is still being worked on**</p>\
+        '<div class="center-text"><h1>PCB Soldering (Skill area)</h1></div> \
         <p>&emsp;&emsp;&emsp;&emsp;During my soldering course, we watched industry standard videos, Practiced soldering techniques and soldered PCBs </p>\
         <p>&emsp;&emsp;&emsp;&emsp;This is a barrel jack to 5V or 3.3v regulator that I soldered, it also has a potentiometer that can control the voltage in smaller increments. This came in handy throughout my embedded controllers class.</p>\
         <img src="../images/Soldering/PowerSupplyTOP.jpg" alt="VCCt (Image not found)" class="img">\
@@ -71,5 +70,24 @@ function P_Soldering() {
         <img src="../images/Soldering/ArduinoChipError.jpg" alt="ArduinoP (Image not found)" class="img"> <div><br/></div> <div><br/></div> \
         ';
         // <p>&emsp;&emsp;&emsp;&emsp;I used parts from the shield for my Embedded Controllers class. and the regulator also helped during my Digital Circuits class</p>
+
+}
+
+
+function P_DigitalCircuits() {
+    var d = document.getElementById("testid");
+    d.classList = "content";
+    d.innerHTML =
+        '<div class="center-text"><h1>Digital Circuits (Skill area)</h1></div> \
+        <p>&emsp;&emsp;&emsp;&emsp;During my Digital circuits class, we learned about logic gates, and circuits using them, Datasheets, DeMorgan’s theorem, propagation delay, we used LS family TTL chips. This was one of my favourite classes, I really like figuring out the logic behind circuits to make them.</p>\
+        <p>&emsp;&emsp;&emsp;&emsp;In class I enjoyed the challenge of making the circuits and trying to optimize the propagation delay and amount of chips being used. On this assignment we had to create a schematic and build a circuit from the Boolean algebra. “!A!B + AB” Building it was pretty easy so I wanted to see if I could make it better. \
+        I did some rearranging and reduced the propagation delay to 2 steps (from 3), this used 3 chips, however. I did some more rearranging and got the amount of chips down to 2, but the propagation went up to 4. Using DeMorgan’s Laws and theorem again I tried to make the circuit better. I got it down to 2 chips with 2 degrees of propagation. \
+        (This is the last assignment in the PDF below) Because of how many times I re-drew the schematic I forgot to include the pin numbers.</p>\
+        <p>&emsp;&emsp;&emsp;&emsp;Learning DeMorgan’s theorem and laws has helped me in other areas then just digital circuits. When I’m programing and trying to make my code more efficient, I now check if doing the inverse of the function, or different arrangements will use less of the processing on average. \
+        (ex. Instead of checking if everything is true, search for a false. Or by putting the most commonly false condition highest up so that there is a higher chance of less code running)</p>\
+        <p>&emsp;&emsp;&emsp;&emsp;Below is a PDF scan of some of the assignment I’ve gotten throughout digital circuits 1 and 2. I think I’ve accidently thrown out about half the assignments.   </p>\
+        <embed src="../images/digitalCircuits/DigitalCircuits.PDF" type="application/pdf" width="100%" height="1000px" />\
+        ';
+    // <p>&emsp;&emsp;&emsp;&emsp;I used parts from the shield for my Embedded Controllers class. and the regulator also helped during my Digital Circuits class</p>
 
 }
