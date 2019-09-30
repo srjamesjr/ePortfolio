@@ -1,53 +1,64 @@
-<html>
 <head>
     <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../css/docs.css">
-    <script type="text/javascript" src="../js/software.js"></script>
-    <script type="text/javascript" src="../js/gfunctions.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/meat.css">
+    <script src="../js/gfunctions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
 <button onclick="topFunction()" id="ToTop">Top</button>
-<div>
 
-    <div class="header">
-        <div class="center">
-            <a class="header-text" href="../">HOME</a>
-            <a class="header-text" href="../Hardware">HARDWARE</a>
-            <a class="header-text" href="../Software">SOFTWARE</a>
-            <a class="header-text" href="../web-dev">WEB DEV</a>
-            <a class="header-text" href="../Resume">RESUME</a>
-        </div>
+<div class="header">
+    <div class="center">
+        <a class="header-text" href="../">HOME</a>
+        <a class="header-text" href="../Hardware">HARDWARE</a>
+        <a class="header-text" href="../Software">SOFTWARE</a>
+        <a class="header-text" href="../web-dev">WEB DEV</a>
+        <a class="header-text" href="../Resume">RESUME</a>
     </div>
-
-
-
-    <div class="side">
-
-        <div class="table-of-contents">
-            <p class="underline">Table of Contents</p>
-            <a href="#" onclick="P_BattleShip(); SectionCollapse(); return false;">Python BattleShip</a> <br/>
-            <a href="#" onclick="P_RPG(); SectionCollapse(); return false;">Java Turn-Based fighting game</a> <br/>
-            <a href="#" onclick="P_Programming(); SectionCollapse(); return false;">Programing (skill area)</a> <br/>
-        </div>
-
-        <div class="content" id = testid>
-
-        </div>
-
-
-
-    </div>
-
-
-
 </div>
+
+<div class="blockd">
+    <div class="sidebar">
+        <ul class="sideul">
+            <li class="sideli" onclick="selectProject('battleship');">
+                <div class="imgbox"><img src="../images/py/battleship.png" alt="(Image not found)" class="img"></div>
+                <div style="display: block">
+                    <div class="sidetitle">Battleship</div>
+                    <div class="sidetitle" style="color: #999;">made in python</div>
+                    <div class="sidetitle" style="color: #999;">December 2017</div>
+                </div>
+            </li>
+            <li class="sideli" onclick="selectProject('PRPG');">
+                <div class="imgbox"><img src="../images/RPG/prpg.png" alt="(Image not found)" class="img"></div>
+                <div style="display: block">
+                    <div class="sidetitle">Turn-Based RPG</div>
+                    <div class="sidetitle" style="color: #999;">made in Java</div>
+                    <div class="sidetitle" style="color: #999;">March 2018</div>
+                </div>
+            </li>
+            <li class="sideli" onclick="selectProject('maze');">
+                <div class="imgbox"><img src="../images/maze/maze.png" alt="(Image not found)" class="img"></div>
+                <div style="display: block">
+                    <div class="sidetitle">Maze game/solver</div>
+                    <div class="sidetitle" style="color: #999;">made in C99</div>
+                    <div class="sidetitle" style="color: #999;">December 2018</div>
+                </div>
+            </li>
+            <li class="sideli">e</li>
+        </ul>
+    </div>
+
+    <div class="main">
+        <div class="content" id = testid>
+        </div>
+    </div>
+
+    <script>
+        window.onscroll = function() {};
+        window.onload = function() {};
+    </script>
+
 </body>
-
-
-<script>
-    window.onscroll = function() {scrollFunction()};
-    window.onload = function() {P_BattleShip(); SectionCollapse();};
-</script>
 </html>

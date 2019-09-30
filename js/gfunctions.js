@@ -5,7 +5,25 @@ function test1() {
 //https://www.w3schools.com/howto/howto_js_collapsible.asp
 //
 //hide or unhide content below the a "collapsible" class
-function SectionCollapse() {
+function selectProject(p){
+    var response;
+    $.ajax({
+        type: "GET",
+        url: (p + ".html"),
+        async: false,
+        success: function (text) {
+            response = text;
+        }
+    });
+    var d = document.getElementById("testid");
+    d.classList = "content";
+    d.innerHTML = (response);
+
+    sectionCollapse();
+}
+
+
+function sectionCollapse() {
 
     var coll = document.getElementsByClassName("collapsible");
     var i;

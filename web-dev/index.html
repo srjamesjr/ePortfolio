@@ -1,54 +1,43 @@
 <head>
     <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../css/docs.css">
-    <script src="../js/webbased.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/meat.css">
     <script src="../js/gfunctions.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
 
 <button onclick="topFunction()" id="ToTop">Top</button>
-<div>
 
-    <div class="header">
-        <div class="center">
-            <a class="header-text" href="../">HOME</a>
-            <a class="header-text" href="../Hardware">HARDWARE</a>
-            <a class="header-text" href="../Software">SOFTWARE</a>
-            <a class="header-text" href="../web-dev">WEB DEV</a>
-            <a class="header-text" href="../Resume">RESUME</a>
-        </div>
+<div class="header">
+    <div class="center">
+        <a class="header-text" href="../">HOME</a>
+        <a class="header-text" href="../Hardware">HARDWARE</a>
+        <a class="header-text" href="../Software">SOFTWARE</a>
+        <a class="header-text" href="../web-dev">WEB DEV</a>
+        <a class="header-text" href="../Resume">RESUME</a>
+    </div>
+</div>
+
+<div class="blockd">
+    <div class="sidebar">
+        <ul class="sideul">
+            <li class="sideli" onclick="selectProject('test');">e</li>
+            <li class="sideli" onclick="selectProject('test1');">e</li>
+            <li class="sideli">e</li>
+            <li class="sideli">e</li>
+        </ul>
     </div>
 
-
-
-    <div class="side">
-
-        <div class="table-of-contents">
-            <p class="underline">Table of Contents</p>
-            <!--<a href="#" onclick="P_ProjectBlackbird1_0(); return false;">Project Blackbird 1.0</a> <br/>>-->
-            <!--<a href="#" onclick="P_Portfolio(); return false;">Portfolio</a> <br/>>-->
-            <!--<a href="#" onclick="software2(); return false;">111111</a>-->
-
-        </div>
-
+    <div class="main">
         <div class="content" id = testid>
-
-        </div>
-
-
-
     </div>
-
+</div>
 
     <script>
-    window.onscroll = function() {scrollFunction()};
-    window.onload = function() {SectionCollapse();};
+        window.onscroll = function() {};
+        window.onload = function() {};
     </script>
-
-
-
-</div>
 
 </body>
 </html>
