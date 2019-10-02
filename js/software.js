@@ -1,4 +1,3 @@
-
 function P_BattleShip() {
     var d = document.getElementById("testid");
     d.classList = "content";

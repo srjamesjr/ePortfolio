@@ -227,25 +227,26 @@ public class PlayervsPlayerWindow {
 			if (Player1.AmDead()) {//if the player has died take them to the end screen
 				ChangeWindow(EndGame);
 			}
-			
-			if (MonsterName.getText().equals("Warlock")) {
-				if (Player2.AmDead()) {//if the monster is a warlock and he dies
-					SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/WarlockDead.png"))); //set picture to dead warlock
-					Player1.EndCombat(); //end combat for the player (Cleanup)
-					Player1.SetGold(Player1.GetGold() + Player2.GetReward()); //give the player the gold reward
-					IsEnemy = false;
-				}else {
-					SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/Warlock.png")));//if the enemy is alive set it's picture to be alive
-				}//if the monster is a Plague knight and he dies
-			}else if (MonsterName.getText().equals("Plague Knight")) {
-				if (Player2.AmDead()) {
-					SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/PlagueKnightDead.png")));//set picture to dead Plague knight
-					Player1.EndCombat();//end combat for the player (Cleanup)
-					Player1.SetGold(Player1.GetGold() + Player2.GetReward());//give the player the gold reward
-					IsEnemy = false;
-				}else {
-					SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/PlagueKnight.png"))); //if the enemy is alive set it's picture to be alive
-					
+			if (Player2 != null) {
+				if (MonsterName.getText().equals("Warlock")) {
+					if (Player2.AmDead()) {//if the monster is a warlock and he dies
+						SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/WarlockDead.png"))); //set picture to dead warlock
+						Player1.EndCombat(); //end combat for the player (Cleanup)
+						Player1.SetGold(Player1.GetGold() + Player2.GetReward()); //give the player the gold reward
+						IsEnemy = false;
+					}else {
+						SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/Warlock.png")));//if the enemy is alive set it's picture to be alive
+					}//if the monster is a Plague knight and he dies
+				}else if (MonsterName.getText().equals("Plague Knight")) {
+					if (Player2.AmDead()) {
+						SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/PlagueKnightDead.png")));//set picture to dead Plague knight
+						Player1.EndCombat();//end combat for the player (Cleanup)
+						Player1.SetGold(Player1.GetGold() + Player2.GetReward());//give the player the gold reward
+						IsEnemy = false;
+					}else {
+						SetMonsterPicIcon(new ImageIcon(PlayervsPlayerWindow.class.getResource("/Resources/PlagueKnight.png"))); //if the enemy is alive set it's picture to be alive
+						
+					}
 				}
 			}
 	}
@@ -1163,7 +1164,9 @@ public class PlayervsPlayerWindow {
 			@Override
 			public void mouseReleased(MouseEvent e) {
 				if (IsEnemy == false) {
+					Player2 = null;
 				ChangeWindow(WeaponSelection);
+				
 				}
 			}
 		});
