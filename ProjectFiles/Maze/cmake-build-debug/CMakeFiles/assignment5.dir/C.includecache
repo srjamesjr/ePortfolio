@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/FileIO.c
+stdio.h
+-
+FileIO.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/FileIO.h
+stdlib.h
+-
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/FileIO.h
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/LinkedLists.c
+LinkedLists.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/LinkedLists.h
+stdio.h
+-
+stdlib.h
+-
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/LinkedLists.h
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/MazeControls.c
+LinkedLists.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/LinkedLists.h
+string.h
+-
+MazeControls.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/MazeControls.h
+stdlib.h
+-
+conio.h
+-
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/MazeControls.h
+LinkedLists.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/LinkedLists.h
+
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/main.c
+stdio.h
+-
+stdlib.h
+-
+FileIO.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/FileIO.h
+LinkedLists.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/LinkedLists.h
+MazeControls.h
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/MazeControls.h
+

@@ -1,0 +1,3 @@
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/cmake-build-debug/CMakeFiles/assignment5.dir
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/1IMPORTANT COLLEGE/year2/Cprograming/C_Programing/assignment5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
