@@ -1,5 +1,3 @@
-
-
 function P_PCBFinal() {
     var d = document.getElementById("testid");
     d.classList = "content";
@@ -69,7 +67,7 @@ function P_Soldering() {
         <p>&emsp;&emsp;&emsp;&emsp;My shield on my freeduino still did not work. However, my shield did work on other peoples arduinos, and my freeduino was able to use other peoples shields. The Freeduino did stop turning on altogether about a week later; I believe that the connection is what cause it to break. </p> \
         <img src="../images/Soldering/ArduinoChipError.jpg" alt="ArduinoP (Image not found)" class="img"> <div><br/></div> <div><br/></div> \
         ';
-        // <p>&emsp;&emsp;&emsp;&emsp;I used parts from the shield for my Embedded Controllers class. and the regulator also helped during my Digital Circuits class</p>
+    // <p>&emsp;&emsp;&emsp;&emsp;I used parts from the shield for my Embedded Controllers class. and the regulator also helped during my Digital Circuits class</p>
 
 }
 
