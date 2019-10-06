@@ -1,10 +1,7 @@
 function test1() {
     alert("Hello, world!");
 }
-//w3school
-//https://www.w3schools.com/howto/howto_js_collapsible.asp
-//
-//hide or unhide content below the a "collapsible" class
+
 function selectProject(p){
     var response;
     $.ajax({
@@ -22,9 +19,11 @@ function selectProject(p){
     sectionCollapse();
 }
 
-
+//w3school
+//https://www.w3schools.com/howto/howto_js_collapsible.asp
+//
+//hide or unhide content below the a "collapsible" class
 function sectionCollapse() {
-
     var coll = document.getElementsByClassName("collapsible");
     var i;
 

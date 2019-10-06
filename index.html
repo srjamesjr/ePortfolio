@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta charset="UTF-8">
     <title>James Poirier Portfolio</title>
     <link rel="stylesheet" type="text/css" href="css/landing.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/meat.css">
+    <script src="js/gfunctions.js"></script>
 </head>
 <body>
 <div>
 
-<div class="header">
-    <div class="center">
+    <div class="header">
+        <div class="center">
             <a class="header-text" href="">HOME</a>
             <a class="header-text" href="Hardware/">HARDWARE</a>
             <a class="header-text" href="Software/">SOFTWARE</a>
             <a class="header-text" href="web-dev/">WEB DEV</a>
             <a class="header-text" href="Resume/">RESUME</a>
+        </div>
     </div>
-</div>
 
 
+    <div class="center-square">
+                <div class="center-text"><h1>HELLO</h1></div>
+        <div class="">
+            Welcome to <font color="#3b78c6" style="font-weight: bold">James Poirier’s</font> Portfolio. Click on a tab
+            above to see my projects.
+            <br/> <br/>
+            Each project will have a small intro then 3 sections,
+            <button class="collapsible">The Project: ▼</button>
+            <div class="section">This will show pictures and will explain what the project does.</div>
+            <button class="collapsible">What I've Learned: ▼</button>
+            <div class="section">Often, I add more to an assignment then is required. This section is for things that
+                I’ve learned other then what the assignment was there to teach.
+            </div>
+            <button class="collapsible">Files: ▼</button>
+            <div class="section">This is where I will put a link to a directory that’s apart of this websites GitHub to
+                view/download the related code/files.
+            </div>
 
-
-<div class="center-square">
-    <div class="center-text"><h1>HELLO</h1></div>
-    <div class="center-text">
-        Click on a tab above to see the projects and experience of James Poirier.
-        <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-        This website is CURRENTLY undergoing major changes (9/30/19)
+            <br/> <br/>
+            This website is CURRENTLY undergoing major changes (9/30/19)
+        </div>
     </div>
+
+    <footer CLASS="bg"></footer>
+    <footer CLASS="bg2"></footer>
+
 </div>
-
-<footer CLASS="bg"></footer>
-<footer CLASS="bg2"></footer>
-
-</div>
-
+<script>
+    window.onload = function() {sectionCollapse();};
+</script>
 </body>
 </html>

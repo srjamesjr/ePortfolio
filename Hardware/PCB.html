@@ -1,31 +1,49 @@
-<div class="center-text"><h1></h1></div>
-<p></p>
-<p></p>
-<p></p>
+<div class="center-text"><h1>Schematic and PCB design</h1></div>
+<p>For my final assignment in my PCB design course, we had to create a PCB from start(schematic) to finish (GERBER files
+    a manufacture uses) that if Olimex’s specifications out of a choice of 8 schematics, these 8 ranged in difficulty
+    (some only had 5 components) but they all had a challenge (ex. Not in English / unfinished)</p>
+<p>I chose the hardest; It had the most amount of components (and leads), and the schematic had inconsistencies. So many
+    leads that the rules of the assignment: Traces have to be greater then 10mils, board must be smaller then 3.1x2.1
+    inch, 10vias max had to be modified. The one I chose was allowed 3.6x2.3 inches, 20vias and the traces could be as
+    small as 8mils (maybe 5mils I don’t exactly remember)</p>
+<p>I spent a lot of time trying to optimize the layout and in the end my board was 3.2x2.3 inches, had 10mils copper
+    traces and only used 2vias. Im really impressed with myself on this project especially because there was a point
+    where I had almost changed the board because I thought this one to be impossible</p>
 <hr/>
 <button class="collapsible">The Product: ▼</button>
 <div class="section">
-    <img style="width: 50%" src="../images//.PNG" alt="(Image not found)" class="img">
+    <img style="width: 49%" src="../images/PCB/page1.png" alt="(Image not found)" class="img">
+    <img style="width: 49%" src="../images/PCB/page2.png" alt="(Image not found)" class="img">
 
-    <p style="margin: 50px 0 50px 0;"> </p>
+    <p style="margin: 50px 0 50px 0;">In the original schematic, there were a couple problems with the net alias’s that
+        I hadn’t noticed on my first attempt. The RGB leads on the LEDs connected to the wrong wires (green -> blue).
+        The originals naming conventions made creating the PCB quite hard, the headers and LEDs had random names; Every
+        components wire went into one of the four 5-long headers. I learned that the headers where meant to be jumped to
+        other headers, then to an Arduino’s header.</p>
 
-    <p style="margin: 50px 0 0 0;"></p>
-    <p></p>
-    <p></p>
+
+    <img style="width: 49%" src="../images/PCB/WiredPCB.png" alt="(Image not found)" class="img">
+    <img style="width: 49%" src="../images/PCB/PCB.png" alt="(Image not found)" class="img">
+    <img style="width: 49%" src="../images/PCB/Gerb_all.png" alt="(Image not found)" class="img">
+
+    <p style="margin: 50px 0 0 0;">The schematic library parts for the IC, LED, and the button were made by me, and all
+        the PCB footprints (and padstacks) were made by me based on there datasheets dimensions and Olimex’s (except the
+        resistors which are default allegro resistors). </p>
 </div>
 
 <br/><br/>
 
 <button class="collapsible">What I've Learned: ▼</button>
 <div class="section">
-    <p></p>
-    <p></p>
-    <p></p>
+    <p>orCAD: Because of the added difficulty of this assignment I did some research into functions that OrCAD capture
+        and PCB designer had that I never used before. Things like Rats, PCB Router, custom smooth, Constraints. They
+        did help, but not as much as I hoped. They often left things very messy, ignored constraints, or made things
+        worse. </p>
 </div>
 <br><br/>
 
 <button class="collapsible">Files: ▼</button>
 <div class="section"><p></p>
-    <p><a href="https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/">https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/</a>
+    <p><a href="https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/PCBFinal">https://github.com/srjamesjr/srjamesjr.github.io/tree/master/ProjectFiles/PCBFinal</a>
     </p>
 </div>
