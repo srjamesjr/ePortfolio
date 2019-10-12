@@ -1,0 +1,71 @@
+<div class="center-text"><h1>Project Blackbird: Digital negotiator</h1></div>
+<div class="center-text"><h3>Version 1</h3></div>
+<p>For my first year’s Work Term I volunteered for Project Blackbird. I was in a team of 4 working to create a website
+    game codenamed: Digital Negotiator. A Turn-based IT business simulation game.</p>
+<p>This project has taught me more than any other project, even though I consider the final result a failure. I put a
+    lot of my free time into learning and writing more code (far more then the 200 hours required). We did get this
+    version to a playable state, though I doubt it would be much fun.</p>
+<p>I didn’t save any pictures from this version of the game. I have the code but not the database, so I couldn’t load
+    the website. I also couldn’t remove the database code because almost everything that was displayed was taken from
+    the DB so it would be pointless.</p>
+<hr/>
+<button class="collapsible">The Product: ▼</button>
+<div class="section">
+    <p>In this game you create a company. Companies can create products, hire employees, expand to regions. There are 16
+        types of products, products generate you money based on your employees skills, the regions your in, and the
+        amount of other people with the same product.</p>
+    <p> Employees have 6 skills with values 20 to 200, each effects a different aspect of the product based on the total
+        amount of the skill in the company. In the game there are a limited number of employees, and only a few get
+        added every round. Employees can be trained but will cost more per round.</p>
+    <p>Regions provide separate markets for products to compete in market share. Products and employees are tradeable to
+        other players. </p>
+    <p>My first contributions to this project was I created wireframes (15 pages), mechanics document, and a ERD (very
+        primitive because I didn’t have much DB experience) though these barley got used. I did continue to update the
+        mechanics document.</p>
+    <p>When I started coding, I felt more comfortable doing backend because PHP was closer to languages I already knew.
+        The second year created a DAO and a controller for it, I used the controller as reference to create 8 more
+        controllers for every table we had. </p>
+    <p>I also made a ‘controller’ for the game, handling the things that would happen at the end of a round. Per person
+        this controller adds there revenue and subtracts their overhead costs. Overhead is simpler, each product has a
+        cost per round per level per region, and each employee has a cost per round.</p>
+    <p>To calculate your revenue, there are a lot of factors. The products (of your company) is what generates revenue,
+        to determine how much depends on the products quality and the products popularity. The quality of the product is
+        determined with the following equation using your company’s total values in these skills (sqrt (technical *
+        (technical + organization + leadership)/3))</p>
+    <p>Popularity is a lot more complicated. Revenue is calculated independently for each region, because each region
+        has a ‘population’ number. There is a hype system that is controlled though semi-random events and shown on a
+        news page. Using the equation(y=12.15x^3-115x^2+315x-169) or log{1.12}X+50 depending on if there is an event,
+        The Y value becomes a modifier for the population. The events are based on real life popularity of products then
+        randomized over 20 years (each round being 4ish years). Next every product of the same type in the same region
+        has a market share, this is calculated into a percent using all companies total market skill. The popularity of
+        a product is determined by %market share times the modified population times another modifier based on the level
+        of the product</p>
+    <p>Most of the revenue equations are just silly, there’s no need for them. At the time I guess I just wanted to play
+        around with equations. </p>
+</div>
+
+<br/><br/>
+
+<button class="collapsible">What I've Learned: ▼</button>
+<div class="section">
+    <p>When I first joined project blackbird, I had no experience in anything close to website developing. The
+        stakeholders and my team were aware of this. Others on the team where also missing some skills (php), so first
+        week was dedicated to learning the languages. </p>
+    <p>There were quite a few things that went wrong with this first work term. A big one was the direction, our only
+        instructions for the game was to incorporate “the business cycle”, be about the IT industry and allow players to
+        make trades/deals.</p>
+    <p>The first draft of document that contained all the mechanics of the game was made by the Project Manager and
+        approved. It was an employee management, that eventually turned into a business simulation and incremental style
+        game. I created all the mechanics documents after the first, I rewrote that document every week (including the
+        first week because I felt I understood the languages enough to start after a few days.). Over time the direction
+        of this game became clear, the problem was that it wasn’t the direction we started with.</p>
+    <p>Scope creep is always a problem, with our project it was necessary but also, it’s downfall. We had very little to
+        start with, so we had to grow the scope to have anything to develop. When a stakeholder would point us in a
+        direction, we would all come up with ideas, most of those ideas would make it in. when the direction of the game
+        would slightly change, we would merge the new ideas with what we already had. This caused the game to become
+        quite confusing.</p>
+    <p>Our communication was also lacking, we did communicate, and have the daily scrum, we just didn’t share many
+        details. We all just did our own thing, this lead to the website being very separate and disjointed with not
+        direct theme.</p>
+</div>
+<br><br/>

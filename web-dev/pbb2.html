@@ -1,0 +1,191 @@
+<div class="center-text"><h1>Project Blackbird: Digital negotiator</h1></div>
+<div class="center-text"><h3>Version 2 + redesign</h3></div>
+<p>After the first year’s work term I still had a lot of passion for getting this game into something I could be proud
+    of. </p>
+<p>For the Restructure I worked on a team of 5, with me and another from the original project. For the work term I
+    worked on a team of 6 (entirely different people then the restructuring besides me) </p>
+
+<hr/>
+<button class="collapsible">Redesign: ▼</button>
+<div class="section">
+    <p>Over Christmas break I had an idea, I would re create that game from the ground up to be slightly simpler and
+        more cohesive. I got less then halfway though before the break ended, but I kept at it. </p>
+    <p>Shortly after the end of Christmas break, the owner of Project blackbird brought up last years work, and we began
+        talking about next year. We came up with the idea to have a Capstone project during the year to design the game,
+        then have the work term to create it.</p>
+    <p>Capstone projects are a dedicated class in your last semester; however, CET’s are unique. My last year was split
+        into quarters instead of semesters, and the final quarter I only have two classes. One of them being the final
+        project. Another thing with CET’s is that our final project has to be Hardware related.</p>
+    <p>This redesigning couldn’t be my final project, but I still put all of my free time into it. I got no credit for
+        it but was one of the largest contributors until the final month (when I needed to focus on presentations,
+        documentation, and the final crunch of my own capstone).</p>
+    <p>Our team was made of five people, only two of us (the two first years) from last year. We had a meeting every
+        week with this team and the stakeholders. In this meeting we pitched ideas, showed new mechanics, refined
+        details, hammered out the ‘problems’ this program was trying to solve, brought up games and systems to use a
+        reference/inspiration, physical prototype testing.</p>
+    <p>Every meeting was very productive. We went though 4 or 5 completely different designs (total) before settling
+        down. We would refine it, test it, then see if something else worked better. </p>
+    <p>My second to final design was based on being a TCG (like Magic: The Gathering, yu-gi-oh, Hearthstone) it was very
+        unique, and I still haven’t found a game that’s similar. (The Bang! Card game is the closest, but my game has no
+        combat, and no characters)</p>
+    <p>For this version I had printed and sleeved over 250 cards for test playing the game. I had created 97 unique
+        cards each with their own effect, I spent quite some time balancing the numbers and effects. We all like this
+        idea. We gave the mid-way though capstone presentation on it but it had a problem, Digital Negotiator is meant
+        to be played by 100s of people and I created a turn based card game.</p>
+    <p>The other guys came up with a more simplified version, but I didn’t like the things they changed, and there were
+        some flaws, I stubbornly kept insisting on my game without even testing theirs. A couple days later, really late
+        at night I realised I wasn’t being completely fair and delved into there game again. </p>
+    <p>Then I had a eureka moment, I thought exactly “theirs was simpler, but what if it’s not simple enough”. I was
+        filled with inspiration and worked on this until our next meeting. I pitched this new designed and we discussed
+        how it meet all of the criteria and opened new interactions that we didn’t even know we wanted until we seen
+        them. When the owner of Project Blackbird got physically excited, I knew this was going to be awesome.</p>
+</div>
+
+<br/><br/>
+
+<button class="collapsible">The Product: ▼</button>
+<div class="section">
+    <p>Digital negotiator is a card-based game about trading to complete a goal, designed to make players interact
+        outside of the website.</p>
+    <p>Each player has 8 cards, each card has 2 categories that it will give ether 1 or 2 points to. A player will have
+        a goal to get a certain amount of points in a few categories. To get the cards that you need you will have to
+        trade with another player, but that player is also looking for cards they need.</p>
+
+
+    <p>The first picture is the landing page, and the second picture is the home page for when you log in. the home page
+        provides a full set of instructions for the game. The faint image in the background was drawn by me.</p>
+
+
+    <p>This is one of the main pages ‘my cards’ this page shows you the cards you own, and your goal. It also calculates
+        your totals (for ease) and keeps track of your Victory points. Victory points are earned every time you complete
+        a goal. The background/banner, The Cards, and the Victory point counter were all drawn by me. I also coded the
+        front-end and the back-end of this page.</p>
+
+
+    <p>When you have the required cards to complete a goal, it goes super Saiyan. I drew this as well. Goal cards when
+        generated are not random at all. They choose categories that you have the least points in to maximize the amount
+        of trades you will need to make to complete the goal.</p>
+
+
+    <p>This is the first trading page. On this page you can initiate a trade with another player (taking you to the
+        second trading page), you can see trades that you’ve proposed (outgoing) and trades others are requesting of
+        you. </p>
+    <p>One big design challenge we had was that trading was required to have some interaction outside the game. I had
+        the idea (during the restructure) that the player proposing the trade was given a code, and the player accepting
+        the trade had to enter that code for the deal to be made. This would force players to have a small amount of
+        communication to perform a trade. </p>
+    <p>The social aspect of this game was the number one thing the client wanted. If your going to do one trade with a
+        person your likely to do multiple trades if there is still benefit, this will get the two people talking and
+        maybe form an alliance. </p>
+    <p>Also, to enforce the social aspect, the only way to see another person’s cards is to enter their W number (A
+        unique number ever NSCC has). This means before you make a trade you’ll want to ask if the person even cards has
+        you need. Making deals with someone you’ve already traded with is easier because of auto-fill. This could form
+        alliances, but ether way it’s people interacting with each other outside of the game</p>
+    <p>This system works for people who are shy or introverted because the people who aren’t shy, or people who are
+        invested in the game will go to the shier people to trade with them. Especially if your competitive and don’t
+        want to trade with the guy that’s close to having more points then you. </p>
+
+
+    <p>This is the second trading page where you chose the cards you want to trade. Greyed out cards are ones that are
+        currently in an offer, and red means the current selected one.</p>
+
+
+    <p>This feature is: inventions, it’s currently very bare bones and will be what next years team focus on. We have
+        some solid ideas for what the finished invention mechanic will do.</p>
+    <p>Right now, when you complete a goal, you get a Victory point and an innovation point. Innovation points are spent
+        on Inventions, but you can only be developing 2 inventions at a time. At the end of a week (or set time frame)
+        The 2 inventions with the most points will be invented giving all players a few bonus victory points. (the
+        amount of inventions at the start would be around 8 but more are added every round)</p>
+    <p>Some Inventions have prerequisite inventions that need to be invented before being available (EX. To have CDs,
+        first floppy disks need to be invented). By the end of the game this will have created a timeline/history of how
+        technology progressed in this world.</p>
+    <p>This is a system that does not require social interaction but does reward it. If you’ve networked with a few
+        people, you can all work together to develop the same invention. More active players would also talk to the
+        shier players to get their points. </p>
+
+
+    <p>This is the Leaderboards page, where you can see the top 10 people with the most victory points, or you can see
+        everyone’s placing in a class. Having a leaderboard will give some players the sense of competition, maybe to be
+        better than everyone, or best in their class, or just better than their friends. This leaderboard could also be
+        a good way of finding other people.</p>
+
+
+    <p>There are 3 admin pages, I wont include screenshots from most of the sections on them because everything looks
+        and functions similarly. The first admin page has the controls for starting the game, The second admin page has
+        controls for the game elements, and the 3rd admin is for seeing user metrics.</p>
+    <p> The first admin page contains the buttons to generate cards (research and goal cards) you can do this based on
+        users who don’t have cards, by induvial user (users can also be searched and filtered), or you can do it by
+        course. Course is another thing you can create on this page. When a user creates an account, they are required
+        enter a course, the course has to be open for them to make the account (open/closed controlled on this page
+        too.) This first page lets you manually end a round and reset all inventions. There is also an option to prevent
+        all users from logging in.</p>
+    <p>The second page lets you manually add, remove or edit various game elements. Things such as the current round,
+        the in game year (used for inventions history), the amount of years a round is, the inventions per round. This
+        page also lets you control the categories (the amount and their names), The templates goals are based off, and
+        Inventions (adding new ones or changing names, descriptions, prerequisites)</p>
+    <p>The third admin pages show detailed statics for each user. Things like Total trades, accepted, declined, cancel
+        trades, goals completed, inventions completed. There are filtering and sorting tools for all this data. When
+        designing mechanics that used the database, I had a data analysts in mind. I wanted to keep as much data as we
+        could and have it all time stamped so in the future someone might be able to learn something from it. </p>
+
+
+    <p>These admin pages where designed with constant feedback from the client (the main person going to be using it)
+        everything is sectioned out and each interactable has detailed description on what it does. It can handle when
+        people join late, or too many people stop playing. If some aspect of the game because unbalanced, more of less
+        of whatever it is can be added or subtracted. The owner specifically requested everything in the User metrics
+        page. </p>
+</div>
+
+<br/><br/>
+
+<button class="collapsible">What I've Learned: ▼</button>
+<div class="section">
+    <p>I learned a lot from this project. This was the first time I was in a leadership role, I started as just the
+        Product owner, but I also did a lot of full-stack development, and GitHub branch management (With the client
+        meetings, presentations, backlog, documentation)</p>
+    <p> One of the first things I had to do was create a Team Charter, I had never made a team charter before, so I had
+        to get help from the team and from Project Blackbirds owner. I had to remake this document a few times and after
+        the presentation/meeting showing our team charter I still had a few things wrong that I corrected directly after
+        (one thing being, I had a goal statement, but I was supposed to have a scope in point form)</p>
+    <p>At the start, my communication with the team was pretty rocky. My team didn’t know very much about the project
+        (because they where just starting), and I was a bit overwhelmed with not knowing how to direct the team. This
+        caused a day or two where not much was happening, while I while I worked out a backlog, setup a GitHub, made a
+        presentation/demonstration of how the game (I didn’t communicate I was doing this to the team). I was also
+        pretty shy for the first few days. I made a set of physical cards to show a playthrough of the game to help
+        understanding (these cards where actually the best thing I created because I used them daily to help explain my
+        thought processes) I printed and sleeve 84 cards. After walking everyone through the game I had more confidence
+        in myself. I then made sure that everything I was doing, and thinking was known to the team, any changed or
+        potential decisions became group discussions </p>
+    <p>4/6 of our team was first years, split based on what they preferred to front-end and back-end. The first years
+        working on backend had to learn both PHP, and Laravel, A programing teacher on the internal steering committee
+        suggested the rest of the first week and a second week to learn. I spent one full day learning Laravel so that
+        me and the senior developer could get something ready for the sprint review. </p>
+    <p>I didn’t stop coding after that though, I kept working on back-end and front-end of pages. For this work term
+        even after hours and on weekends this project was the only thing I did. I was super passionate about making this
+        the best project it could be and put all the effort I could into it.</p>
+    <p>at the end of the 3rd week (maybe second) we wanted to show the website in the sprint review on the live server.
+        I complete forgot about this, the Senior developer and DevOps also missed it. Our development VMs were running
+        the latest versions of php/Laravel, but the server was running an older version. The server couldn’t be updated
+        (security/stability issue I think) and when we tried to downgrade our code we ran into many errors. I downgraded
+        my VM, then I spent the whole weekend rewriting the entire project. (some things could be copied but some things
+        needed to be changed)</p>
+    <p>For our last and second last sprint reviews we performed full game tests. We got other development teams to come
+        in and play a full start to finish game (about 20 people total), while our team carefully observed. For the
+        first test we gave as little direction/guidance/help as we could, we told them how to accept trades, and that
+        they needed to complete goals. We wanted to see if our UI and mechanics were intuitive. We also paid great
+        attention to who people where trading with (friends/non-friends), patterns with who their trading (asking the
+        same few people or branching out), we looked for balance (whether completing goals was easy/hard based on the
+        amount of categories of values on the goal card). This test was hugely valuable, and we slightly adjusted many
+        things to hone in on the experience we where looking for.</p>
+    <p>The second test, done a week later was by the request of the internal steering committee to test security. The
+        teams on other projects had the same tests on their project, where everyone tried to break your website. Ours
+        held up extremely well (we did have fewer potential breaking then other project), the worse thing that happened
+        was a users display name could be 64 capital ‘W’, we made display names more restricted, but an admin can change
+        users’ names. </p>
+    <p>For the final presentations I was super nervous because there was a CEO from a company there to critique the
+        presentation. The CEO thought my presentation was great. He really like the game itself and what it
+        accomplished. He commented that he liked how everything had design reasons and mechanic reasons, and how I
+        talked about the design reasons while my teammate on the computer got ready to show it’s mechanics and explained
+        them. </p>
+</div>
+<br><br/>
