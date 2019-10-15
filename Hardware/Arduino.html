@@ -5,8 +5,7 @@
     computer, Master Write to Slave Receivers, FSK (software) modem, Wifi shield, LED wireless communication, UART
     arduino to arduino. )</p>
 <p>For the assignments I did all of the tasks, including the ones I didn't have to. I got full marks for every task
-    except 2 (getting an image from a camera module on the Arduino mega, and one shown below), but marks don't go above
-    100%</p>
+    except 2 (getting an image from a camera module on the Arduino mega, and one shown below)</p>
 <hr/>
 <button class="collapsible">The projects: ▼</button>
 <div class="section">
@@ -15,5 +14,88 @@
         Your browser does not support the video tag.
     </video>
     <p>This video is showing a clear LED being used as a photoresistor. this is the other task I did not get full points
-        for, I got half points. The task wanted one LED to blink and have the other LED (photodiode) detect when it's on or off. </p>
+        for, I got half points. The task wanted one LED to blink and have the other LED (photodiode) detect when it's on
+        or off.
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/multifunction.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>With this assignment (because it was easy), I didn’t want to keep calling my teacher over review each task, so I
+        combined them all into one program. The speed of the scanner lights is controlled by a potentiometer. The
+        brightness of the LED is incremented up or down based on the button held. There is a button to switch the 7-seg
+        between scanner lights and two separate counters, one goes up (to 60) and the other down (from 10) </p>
+
+    <video controls>
+        <source src="/images/Arduino/serial%20input.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>Using putty, I serially send characters to the Arduino and they appear in correct order on an LCD shield.
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/master%20slave.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>I use SPI to have two Arduinos send data between them. The closest Arduino, with the piece of paper “SL” is the
+        slave.
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/AtoC.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>I use Processing 3.4 to display serial data (potentiometer resistance) being sent from the Arduino
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/servo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>I use Processing 3.4 to send horizontal mouse data to the Arduino to control the left and right motion of the
+        Servo
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/screen.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>I display some text and a wave on a TFT1.8 LCD shield. (SPI)
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/internet.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>I have a website running on the Arduino, holding the button changes the background color to red (because my
+        computer was across the room)
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/request.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>I have a website running on the Arduino, requesting a specific pages turns the LED on or off
+    </p>
+
+    <video controls>
+        <source src="/images/Arduino/morse.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p>This is running on a raspberry pi. For my programming class we had to make a Morse coder/decoder and I had a
+        salvaged speaker. I modified the program to run on the raspberry pi giving GPIO outputs for the LED and speaker
+        (In python)
+    </p>
+
+    <img style="width: 50%" src="../images/Arduino/portable.jpg" alt="(Image not found)" class="img">
+    <p> This is my final Embedded controller course project: A portable Emulator. It’s a raspberry pi, running an
+        emulator, to a 480p LCD screen, with a breadboard of buttons, duct taped to a hollowed ps2 controller, running
+        on a battery bank.
+    </p>
+    <p>I didn’t have a lot of time or resources to put this project together. I am using Mednafen emulator, and a
+        background process to read the button presses and simulate keyboard presses. You could also connect it up to a
+        monitor with HDMI and the display would auto switch. I only had half a week to do this project so I couldn’t 3d
+        print or perf-board any components, which makes it look a lot less cool than it is
+    </p>
 </div>
