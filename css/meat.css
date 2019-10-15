@@ -68,6 +68,7 @@
     display: block;
     list-style-type: none;
     background: rgba(255, 255, 255,0.7);
+    width: 100%;
     /*height: calc(100% - 200px);*/
 }
 
