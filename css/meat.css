@@ -129,6 +129,10 @@ img {
     max-height: 100%;
 }
 
+video {
+max-width: 100%;
+}
+
 @media only screen and (max-width: 750px) {
 
     .blockd {
